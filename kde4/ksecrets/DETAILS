@@ -1,0 +1,8 @@
+           SPELL=ksecrets
+         VERSION=x
+      PATCHLEVEL=9999
+           SHORT="deprecated"
+cat << EOF
+deprecated spell 
+EOF
+

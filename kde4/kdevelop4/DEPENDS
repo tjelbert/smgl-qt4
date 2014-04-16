@@ -1,0 +1,5 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
+depends kdevplatform4      &&
+depends perl               &&
+optional_depends  gdb              '' '' 'GNU Debugger'&&
+optional_depends  valgrind          '' '' 'find memory leaks'

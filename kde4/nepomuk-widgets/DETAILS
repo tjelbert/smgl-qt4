@@ -1,0 +1,13 @@
+           SPELL=nepomuk-widgets
+         VERSION=x
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
+   SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
+        WEB_SITE=https://projects.kde.org/projects/kde/kdelibs/nepomuk-widgets
+         ENTERED=20130206
+      LICENSE[0]=GPL
+           SHORT="library containing the nepomuk widgets"
+cat << EOF
+The Library containing the Nepomuk Widgets.
+EOF

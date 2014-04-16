@@ -1,0 +1,144 @@
+. $GRIMOIRE/libaccount
+. $GRIMOIRE/config_query_multi.function
+
+QT4DIR="$INSTALL_ROOT/opt/qt4"
+KDE4DIR="$QT4DIR"
+SRC=$SOURCE_DIRECTORY
+
+if is_depends_enabled $SPELL python;then
+  VV=`installed_version python | cut -c-3` &&
+  PYTHON2=/usr/bin/python${VV}
+  export PYTHON=$PYTHON2
+fi
+
+if is_depends_enabled $SPELL python3;then
+  VV=`installed_version python3 | cut -c-3` &&
+  PYTHON3=/usr/bin/python${VV}m
+  export PYTHON=$PYTHON3
+fi
+
+#---------------------------------------------------------------------
+function default_pre_build () {
+  real_default_pre_build
+  cd $SOURCE_DIRECTORY &&
+  mkdir build
+}
+
+#---------------------------------------------------------------------
+function kde4_build() {
+  export XDG_DATA_DIRS=$KDE4DIR/share:/usr/share
+  OPTS+=" -DCMAKE_BUILD_TYPE=$KDE_BUILD_TYPE \
+          -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
+  qt4_cmake_build
+}
+
+
+#---------------------------------------------------------------------
+## This function automatically fixes any known bad paths
+#---------------------------------------------------------------------
+function default_grimoire_post_install () {
+  real_default_sorcery_post_install && # currently a no-op
+  if [[ $STAGED_INSTALL == off ]]; then
+    return 0
+  fi &&
+  pushd TRANSL &> /dev/null &&
+  if [[ -d usr/man ]]; then
+    echo Fixing bad install path: /usr/man &&
+    mv -v usr/man usr/share
+  fi &&
+  if [[ -d usr/info ]]; then
+    echo Fixing bad install path: /usr/info &&
+    mv -v usr/info usr/share
+  fi &&
+  if [[ -d usr/local/man ]]; then
+    echo Fixing bad install path: /usr/local/man &&
+    mv -v usr/local/man usr/share
+  fi &&
+  if [[ -d usr/local/info ]]; then
+    echo Fixing bad install path: /usr/local/info &&
+    mv -v usr/local/info usr/share
+  fi &&
+  popd &> /dev/null
+}
+
+
+#---------------------------------------------------------------------
+# Runs update-desktop-database if it is installed
+#---------------------------------------------------------------------
+function update_desktop_database ()
+{
+  if test -x /usr/bin/update-desktop-database; then
+    message "${MESSAGE_COLOR}Updating application mime type database.${DEFAULT_COLOR}"
+    /usr/bin/update-desktop-database
+  fi
+}
+
+
+# spells in several  sections now need cmake or qt4
+function cmake_build() {
+  cd $SOURCE_DIRECTORY/build  &&
+  if [[ -f /usr/bin/ninja ]];then
+    MAKE=ninja
+    OPTS+=" -G Ninja"
+  else
+    MAKE=make
+  fi &&
+
+  message INSTALL_PREFIX=$KDE4DIR &&
+
+  cmake -DCMAKE_INSTALL_PREFIX=$KDE4DIR \
+        -DCMAKE_INSTALL_LIBDIR=lib \
+        -DCMAKE_INSTALL_MANDIR=share/man \
+        -DCMAKE_PREFIX_PATH=share/apps/cmake/modules \
+        -DSYSCONFDIR=$INSTALL_ROOT/etc \
+        -DCMAKE_BUILD_TYPE=Release \
+        $OPTS $SRC &&
+  $MAKE
+}
+
+function cmake_install() {
+  if [[ -f /usr/bin/ninja ]];then
+    ninja install
+  else
+    make install
+  fi
+}
+
+
+function qt4_cmake_build() {
+  PATH="$QT4DIR/bin/:$PATH"
+  export PKG_CONFIG_PATH="$QT4DIR/lib/pkgconfig"
+  cmake_build
+}
+
+#---
+## Default configure
+#---
+
+function default_build_configure() {
+  # this is here so that config_query_option can be used without
+  # extra junk
+  local up_spell_name=$(echo $SPELL | tr "a-z" "A-Z")     &&
+  local up_spell_name=$(echo $SPELL | tr "-" "_")         &&
+  local tempopts="${up_spell_name}_OPTS"                  &&
+  OPTS="${!tempopts} $OPTS"                               &&
+  OPTS="$OPTS --build=${BUILD}"                           &&
+
+  ./configure --prefix=${INSTALL_ROOT}/usr                 \
+          --sysconfdir=${INSTALL_ROOT}/etc                 \
+       --localstatedir=${INSTALL_ROOT}/var                 \
+              --libdir=${INSTALL_ROOT}/usr/lib        \
+              --mandir=${INSTALL_ROOT}/usr/share/man  \
+             --infodir=${INSTALL_ROOT}/usr/share/info \
+                       $OPTS
+}
+
+#---
+## Default make
+#---
+
+function default_build_make(){
+  make
+}
+
+

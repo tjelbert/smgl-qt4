@@ -1,0 +1,16 @@
+           SPELL=kremotecontrol
+         VERSION=x
+          SOURCE="${SPELL}-${VERSION}.tar.xz"
+   SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
+     SOURCE_HASH=sha512:
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://kde.org/applications/utilities/kremotecontrol/"
+      LICENSE[0]="GPL"
+         ENTERED=20120211
+        KEYWORDS=""
+           SHORT="KRemoteControl is a KDE frontend for the LIRC"
+cat << EOF
+KRemoteControl is a KDE frontend for the Linux Infrared Remote Control system
+(LIRC). It consist of two parts: a systemtray applet and a configuration
+module.
+EOF

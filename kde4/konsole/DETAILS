@@ -1,0 +1,14 @@
+           SPELL=konsole
+         VERSION=x
+          SOURCE=$SPELL-$VERSION.tar.xz
+     SOURCE_HASH=sha512:
+      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=http://www.kde.org
+         ENTERED=20110204
+      LICENSE[0]=GPL
+        KEYWORDS="kde4"
+           SHORT="terminal emulator"
+cat << EOF
+terminal emulator
+EOF

@@ -1,0 +1,14 @@
+           SPELL=kfloppy
+         VERSION=x
+          SOURCE="${SPELL}-${VERSION}.tar.xz"
+   SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
+     SOURCE_HASH=sha512:
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://kde.org/applications/utilities/kfloppy/"
+      LICENSE[0]="GPL"
+         ENTERED=20120211
+        KEYWORDS=""
+           SHORT="KDE Floppy Formatter"
+cat << EOF
+KDE Floppy Formatter
+EOF

@@ -1,0 +1,24 @@
+           SPELL=kdeartwork4
+          SPELLX=${SPELL//4}
+         VERSION=x
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELLX-$VERSION.tar.xz
+   SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELLX-$VERSION"
+        WEB_SITE=http://www.kde.org
+         ENTERED=20020912
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4"
+        KEYWORDS="theme kde4 audio"
+           SHORT="Additional themes, sounds, wallpapers, and styles for KDE4"
+cat << EOF
+kdeartwork contains additional
+* themes,
+* sounds,
+* wallpapers and
+* window styles
+for KDE. We placed them into this module so that kdebase won't be too
+bloated.
+EOF
+

@@ -1,0 +1,14 @@
+           SPELL=kdf
+         VERSION=x
+          SOURCE="${SPELL}-${VERSION}.tar.xz"
+   SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
+     SOURCE_HASH=sha512:
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://kde.org/applications/system/kdiskfree/"
+      LICENSE[0]="GPL"
+         ENTERED=20120211
+        KEYWORDS=""
+           SHORT="KDE View Disk Usage"
+cat << EOF
+KDE View Disk Usage
+EOF
