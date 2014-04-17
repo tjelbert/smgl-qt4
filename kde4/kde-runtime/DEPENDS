@@ -1,4 +1,10 @@
-source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
+depends cmake    &&
+depends automoc  &&
+depends qt4      &&
+depends kdelibs  &&
+depends phonon   &&
+depends kactivities     &&
+depends libgcrypt       &&
 depends  libxau         &&
 depends  libxcomposite  &&
 depends  libxcursor     &&
@@ -7,16 +13,17 @@ depends  libxfixes      &&
 depends  libxft         &&
 depends  libxrandr      &&
 depends  libxtst        &&
-depends  shared-desktop-ontologies &&
-depends  soprano        &&
-depends  attica         &&
-depends  nepomuk-core   &&
-depends  kactivities    &&
-optional_depends xine-lib '' '' 'xine libraries'       &&
+depends attica          &&
+
+optional_depends kdepimlibs '' '' 'PIM support' &&
+optional_depends xine-lib '' '' 'build kcm module for xine' &&
+optional_depends alsa-lib '' '' 'ALSA sound support' &&
 optional_depends libssh   '' '' 'build kio_sftp slave' &&
 optional_depends pulseaudio '' '' 'Pulseaudio server support' &&
 optional_depends openexr  '' '' 'EXR support for thumbnails'  &&
 optional_depends openslp  '' '' 'Service Location Protocol' &&
 optional_depends samba    '' '' 'build smb-ioslave'  &&
 optional_depends exiv2    '' '' 'access image metadata' &&
-suggest_depends oxygen-icons 'default icons for kde4'
+optional_depends qca2     '' '-DCMAKE_DISABLE_FIND_PACKAGE_QCA2=1' 'Support for remote plasma' &&
+runtime_depends oxygen-icons 'default icons for kde4' &&
+suggest_depends kde-workspace '' '' 'kde4 desktop'
