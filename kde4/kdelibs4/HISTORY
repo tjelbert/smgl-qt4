@@ -1,3 +1,11 @@
+2014-04-16 Treeve Jelbert <treeve@sourcemage.org> 
+	* DETAILS: version 4.13.0
+	* DEPENDS: multiple changes, discourage use of soprano/redland,...
+	* CONFLICTS: deleted
+	* UP_TRIGGERS: obsolete, deleted
+	* PRE_BUILD: cleanup
+	* CONFIGURE: query for obsolete qt3 support
+
 2014-04-16 Treeve Jelbert <treeve@sourcemage.org>
 	* this spell was moved from the main grinoire and its history was stripped
 	  prior history can be found there at git commit
