@@ -1,8 +1,8 @@
            SPELL=kgpg
-         VERSION=x
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:7ba173382cac504045cc221e8ebb95ed249230746c0fc7ef61ce5fa506f558e8b43f0b09933d922e2f0ab3e13f62a3ee215f1fc2b7f89b734c490dd538fbd008
           SOURCE="${SPELL}-${VERSION}.tar.xz"
    SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://kde.org/applications/utilities/kgpg/"
       LICENSE[0]="GPL"
