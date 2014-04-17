@@ -1,4 +1,8 @@
-2014-04-16 Treeve Jelbert <treeve@sourcemage.org> 
+2014-04-17 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: rename spell as kdelibs
+	* CONFLICTS: added
+
+2014-04-16 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 4.13.0
 	* DEPENDS: multiple changes, discourage use of soprano/redland,...
 	* CONFLICTS: deleted

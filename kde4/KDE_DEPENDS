@@ -2,40 +2,18 @@ depends -sub CXX gcc  &&
 depends cmake    &&
 
 case $SPELL in
-  kdelibs4)   depends -sub "WEBKIT DBUS SSL OPENGL QT3 TOOLS ACCESS" qt4     &&
-              depends  iceauth       &&
-              depends  libice        &&
-              depends  libsm         &&
-              depends  libxtst       &&
-              depends  libxext       &&
-              depends  phonon        &&
-              depends desktop-file-utils  &&
-              depends dbus             &&
-              depends pkgconfig        &&
-              depends openssl          &&
-              depends pcre             &&
-              depends strigi           &&
-              sub_depends strigi QT4   &&
-              depends shared-mime-info &&
-              depends  perl            &&
-              depends  libpng          &&
-              depends libxml2          &&
-              depends libxslt          &&
-              depends giflib
-              ;;
-
   kdebase4-runtime) 
-               depends kdelibs4     &&
+               depends kdelibs      &&
                depends kdepimlibs4  &&
                depends phonon
                ;;
 
   kdepimlibs4)
-               depends  kdelibs4
+               depends  kdelibs
                ;;
 
   kdepim4-runtime)
-               depends  kdelibs4 &&
+               depends  kdelibs &&
                depends  kdepimlibs4  &&
                depends  kdebase4-runtime  &&
                depends  phonon
@@ -43,12 +21,12 @@ case $SPELL in
 
   kdebase-workspace4)
                depends  kdebase4-runtime &&
-               depends  kdelibs4         &&
+               depends  kdelibs          &&
                depends  xorg-server
                ;;
 
   kdebindings4)
-               depends  kdelibs4 &&
+               depends  kdelibs &&
                depends  qimageblitz &&
                depends  attica
                ;;
