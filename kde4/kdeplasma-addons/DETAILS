@@ -1,0 +1,15 @@
+           SPELL=kdeplasma-addons
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:b28fb0609d33f01638fa715e2fb199ac0880768cc13a6c0ec30090a405ccfd9f485ac4e6aef13e3bdfff571321527fe8bea371a8b0b18fc3856c9aaf09d8d973
+          SOURCE=$SPELL-$VERSION.tar.xz
+   SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
+        WEB_SITE=http://www.kde.org
+         ENTERED=20080527
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4"
+           SHORT="themes and applets for KDE4"
+cat << EOF
+themes and applets for KDE4
+EOF
