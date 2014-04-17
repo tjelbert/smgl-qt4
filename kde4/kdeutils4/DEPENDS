@@ -9,7 +9,7 @@ optional_depends kremotecontrol "" "" \
                 "KRemoteControl is a KDE frontend for the LIRC" &&
 optional_depends ksecrets "" "" "Secrets Management Infrastructure for KDE" &&
 optional_depends ktimer "" "" "KDE Countdown Launcher" &&
-optional_depends kwallet "" "" "KDE Wallet Management Tool" &&
+optional_depends kwalletmanager "" "" "KDE Wallet Management Tool" &&
 optional_depends printer-applet "" "" \
                 "KDE System tray icon for managing print jobs" &&
 optional_depends superkaramba "" "" "KDE engine for cool desktop eyecandy" &&
