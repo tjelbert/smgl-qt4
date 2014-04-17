@@ -1,7 +1,7 @@
            SPELL=konsole
-         VERSION=x
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:dd3906fc514a3149aaf9d666de3e16c065bcd615dc7aeec47de37dd3a3ad6043d4f287696bb4bc1b702c261d01ae16d7dac75911f9095361208e2cd68c47f8bf
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:
       SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=http://www.kde.org
