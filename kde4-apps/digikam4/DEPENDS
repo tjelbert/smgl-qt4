@@ -12,7 +12,7 @@ depends  qjson       &&
 depends  marble      &&
 depends  sane-backends  &&
 
-optional_depends  kdepimlibs4 '' '' 'PIM support' &&
+optional_depends  kdepimlibs '' '' 'PIM support' &&
 # added optional dependencies from kipi-plugins4
 # TODO find flags for enabling and disabling.
 optional_depends libxslt    "" "" "for HtmlExport plugin"       &&

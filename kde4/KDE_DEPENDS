@@ -4,17 +4,17 @@ depends cmake    &&
 case $SPELL in
   kdebase4-runtime) 
                depends kdelibs      &&
-               depends kdepimlibs4  &&
+               depends kdepimlibs   &&
                depends phonon
                ;;
 
-  kdepimlibs4)
+  kdepimlibs)
                depends  kdelibs
                ;;
 
   kdepim4-runtime)
                depends  kdelibs &&
-               depends  kdepimlibs4  &&
+               depends  kdepimlibs  &&
                depends  kdebase4-runtime  &&
                depends  phonon
                ;;

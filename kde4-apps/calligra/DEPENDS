@@ -40,7 +40,7 @@ optional_depends tiff           '' '' 'graphics support'      &&
 optional_depends create         '' '' 'creative resources, brushes,  palettes etc' &&
 optional_depends fftw           '' '' 'faster image manipulation' &&
 #Plan
-optional_depends kdepimlibs4    '' '' 'PIM support'
+optional_depends kdepimlibs     '' '' 'PIM support'
 fi &&
 
 # multiple things

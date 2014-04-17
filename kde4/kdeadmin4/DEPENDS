@@ -1,5 +1,5 @@
 source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
-depends kdepimlibs4  &&
+depends kdepimlibs  &&
 if [[ $KDE_CUPS == y ]] ;then
   depends python  &&
   depends pykde4 &&

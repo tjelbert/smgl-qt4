@@ -1,5 +1,5 @@
 source  $SECTION_DIRECTORY/KDE_DEPENDS &&
-depends kdepimlibs4  &&
+depends kdepimlibs   &&
 depends akonadi      &&
 depends boost        &&
 depends soprano
