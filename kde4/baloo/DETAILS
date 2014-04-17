@@ -1,0 +1,14 @@
+           SPELL=baloo
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:f09909a4ca961cf5ef6fc73bfe4b58433704086a6b6d4370069dae04d5b5f659f089efce64f7ab6d2d157bf36c5469f0bed3b5136f05fdbc7f3a1da638e3dbc0
+          SOURCE=$SPELL-$VERSION.tar.xz
+   SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
+        WEB_SITE=http://www.kde.org
+      LICENSE[0]=LGPL
+         ENTERED=20131217
+        KEYWORDS=""
+           SHORT=""
+cat << EOF
+desktop search
+EOF
