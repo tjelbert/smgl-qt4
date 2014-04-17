@@ -1,8 +1,9 @@
 depends -sub CXX gcc  &&
 depends cmake    &&
+depends qt4      &&
 
 case $SPELL in
-  kdebase4-runtime) 
+  kde-runtime)
                depends kdelibs      &&
                depends kdepimlibs   &&
                depends phonon
@@ -11,12 +12,12 @@ case $SPELL in
   kdepim4-runtime)
                depends  kdelibs &&
                depends  kdepimlibs  &&
-               depends  kdebase4-runtime  &&
+               depends  kde-runtime  &&
                depends  phonon
                ;;
 
   kdebase-workspace4)
-               depends  kdebase4-runtime &&
+               depends  kde-runtime &&
                depends  kdelibs          &&
                depends  xorg-server
                ;;
@@ -27,7 +28,7 @@ case $SPELL in
                depends  attica
                ;;
 
-  *)           depends kdebase4-runtime &&
+  *)           depends kde-runtime &&
                optional_depends kdebase-workspace4 '' '' 'kde desktop'
                ;;
 esac
