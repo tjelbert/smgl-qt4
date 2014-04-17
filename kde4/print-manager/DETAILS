@@ -1,0 +1,14 @@
+           SPELL=print-manager
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:7620a22cf38d62b70aac3d7ab72d677abd574e8a8a160a021d176f51d85359d705940d44755f9cdf0f4501acd1a87d5a061debafc561ee513ceede6166bf28bf
+          SOURCE=$SPELL-$VERSION.tar.xz
+   SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
+        WEB_SITE=http://www.kde.org
+      LICENSE[0]=GPL
+         ENTERED=20120222
+        KEYWORDS="kde4 printing"
+           SHORT="printer management "
+cat << EOF
+KDE tool for printer management
+EOF

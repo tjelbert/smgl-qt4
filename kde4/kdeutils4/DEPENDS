@@ -10,8 +10,7 @@ optional_depends kremotecontrol "" "" \
 optional_depends ksecrets "" "" "Secrets Management Infrastructure for KDE" &&
 optional_depends ktimer "" "" "KDE Countdown Launcher" &&
 optional_depends kwalletmanager "" "" "KDE Wallet Management Tool" &&
-optional_depends printer-applet "" "" \
-                "KDE System tray icon for managing print jobs" &&
+optional_depends print-manager  "" ""  "tool for managing print jobs" &&
 optional_depends superkaramba "" "" "KDE engine for cool desktop eyecandy" &&
 optional_depends sweeper "" "" "KDE System Cleaner"
 

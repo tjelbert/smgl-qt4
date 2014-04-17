@@ -1,0 +1,13 @@
+2014-04-17 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: 4.13.0
+
+2012-11-19 Treeve Jelbert <treeve@sourcemage.org>
+	* BUILD: deleted, no longer needed
+
+2012-08-22 Treeve Jelbert <treeve@sourcemage.org>
+	* BUILD: added, for cups-1.6 support
+
+2012-02-22 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version master
+	  spell created
+
