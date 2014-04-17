@@ -18,7 +18,7 @@ optional_depends  hunspell       "-DWITH_HUNSPELL%BOOL=on" \
 optional_depends  qca2           "-DWITH_QCA2%BOOL=on" \
                                  "-DWITH_QCA2%BOOL=off" \
                                  "for the checksum tool in Okteta hex editor" &&
-optional_depends  kdebase4       "-DWITH_LibKonq%BOOL=on" \
+optional_depends  kde-baseapps   "-DWITH_LibKonq%BOOL=on" \
                                  "-DWITH_LibKonq%BOOL=off" \
                                  "to build the Dolphin version control plugins" &&
 optional_depends -sub JAVA antlr "-DWITH_Antlr2%BOOL=on" \

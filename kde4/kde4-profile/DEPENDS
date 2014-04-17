@@ -3,7 +3,7 @@ optional_depends  kdeadmin4                         \
                   ""                                \
                   "System administration programs"  &&
 
-optional_depends  kdebase4                     \
+optional_depends  kde-baseapps                 \
                   ""                           \
                   ""                           \
                   "for Konqueror and Dolphin"  &&
