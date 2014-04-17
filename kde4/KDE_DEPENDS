@@ -8,10 +8,6 @@ case $SPELL in
                depends phonon
                ;;
 
-  kdepimlibs)
-               depends  kdelibs
-               ;;
-
   kdepim4-runtime)
                depends  kdelibs &&
                depends  kdepimlibs  &&
