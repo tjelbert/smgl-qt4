@@ -1,3 +1,10 @@
+2014-04-16 Treeve Jelbert <treeve@sourcemage.org> 
+	* DETAILS: version 4.13.0
+	* DEPENDS: updated, add baloo
+	* CONFLICTS: added
+	* PRE_BUILD, qt3.diff: added
+	  fix build if qt3 support is not available
+
 2014-04-16 Treeve Jelbert <treeve@sourcemage.org>
 	* this spell was moved from the main grinoire and its history was stripped
 	  prior history can be found there at git commit

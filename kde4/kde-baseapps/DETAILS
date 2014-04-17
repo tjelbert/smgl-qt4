@@ -1,10 +1,9 @@
-           SPELL=kdebase4
-          SPELLX=kde-baseapps
-         VERSION=x
-     SOURCE_HASH=sha512:
-          SOURCE=$SPELLX-$VERSION.tar.xz
+          SPELL=kde-baseapps
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:90b2919d09484fb84b5cbfbadb4dc439eea0bb1f6c21129c03b0848cf29e1c5316de6c1dd9ce36e88c16405d07f563ab2c1bf84cd6c9a0baaab18dad7e80b9ef
+          SOURCE=$SPELL-$VERSION.tar.xz
    SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
-SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELLX-$VERSION"
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
         WEB_SITE=http://www.kde.org
          ENTERED=20020912
 #  SECURITY_PATCH=1
