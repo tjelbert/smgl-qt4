@@ -1,1 +1,13 @@
-source  $SECTION_DIRECTORY/KDE_DEPENDS
+. $GRIMOIRE/KDE_DEPENDS
+depends automoc &&
+optional_depends kactivities '' '' 'KActivies support' &&
+optional_depends qjson       '' '' 'parse JSON files'  &&
+
+optional_depends pyqt4 '' '-DCMAKE_DISABLE_FIND_PACKAGE_PythonLibrary=1 \
+                           -DCMAKE_DISABLE_FIND_PACKAGE_SIP=1 \
+                           -DCMAKE_DISABLE_FIND_PACKAGE_PyQt4=1' \
+                          'Build Pate' &&
+if is_depends_enabled $SPELL pyqt4;then
+ depends sip &&
+ depends PYTHON
+fi
