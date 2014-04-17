@@ -1,10 +1,9 @@
-           SPELL=kdebase-workspace4
-          SPELLX=kde-workspace
-         VERSION=x
-     SOURCE_HASH=sha512:
-          SOURCE=$SPELLX-$VERSION.tar.xz
+           SPELL=kde-workspace
+         VERSION=4.11.5
+     SOURCE_HASH=sha512:311ef4f13a35f5e5d4b2eb60491d76aa8a47a25c7a565d7378c653b4d01d0d21d867deef9c658dff9bd14a02f1834d4781fed80129b5dc05d1490d34c656a281
+          SOURCE=$SPELL-$VERSION.tar.xz
    SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
-SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELLX-$VERSION"
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
         WEB_SITE=http://www.kde.org
          ENTERED=20070803
   SECURITY_PATCH=1

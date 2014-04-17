@@ -1,53 +1,58 @@
-source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
-depends  kdepimlibs    &&
+depends cmake    &&
+depends automoc  &&
+depends qt4      &&
+depends  kdelibs     &&
+depends  kde-runtime &&
+#depends  xorg-server &&
+#depends  kactivities   &&
 depends  xproto        &&
 depends  xextproto     &&
-depends  xmessage      &&
+depends  xcb-proto     &&
+depends  libx11        &&
+depends  libxcb        &&
 depends  libxdmcp      &&
-depends  libxrandr     &&
-depends  qimageblitz   &&
-depends  kactivities   &&
-depends  shared-desktop-ontologies &&
-depends  strigi &&
-depends  xcb-util &&
-depends  xcb-util-image &&
-depends  xcb-util-renderutil && 
-runtime_depends  xprop  &&
+#depends  libxrandr     &&
+depends  libdbusmenu-qt &&
+depends  strigi         &&
+depends  qimageblitz    &&
+#runtime_depends  xprop  &&
 
-suggest_depends xrdb             '' '' "update the X resource database"      &&
+depends OPENGL &&
+depends boost  &&
+
+#suggest_depends xrdb             '' '' "update the X resource database"      &&
 suggest_depends xkeyboard-config '' '' "allow multiple consoles ctl-alt-Fn"  &&
 
+#optional_depends  attica      '' ''   'GetHotNewStuff support' &&
 optional_depends  freetype2   '' ''   'anti-aliasing of fonts'     &&
-optional_depends  fontconfig  '' ''   'Font access configuration library' &&
+optional_depends  kdepimlibs  '' '' 'for several plasma dataengines'
+optional_depends  akonadi     '' '' 'event support in the calendar DataEngine' &&
 optional_depends  libxft      '' ''   'Freetype interface'         &&
 optional_depends  libxkbfile  '' ''   'keyboard interface'         &&
 optional_depends  libxtst     '' ''   'testing client interfaces'  &&
 optional_depends  libxext     '' ''   'PowerDevil power manager'   &&
-optional_depends  lm_sensors  '' ''   'sensors support for ksysguard' &&
+optional_depends  libxres     '' ''   'X11 Resource extension'     &&
+optional_depends  lm_sensors  '' ''   'hardware monitoring'        &&
 optional_depends  glib2       '' ''   'gnome support'              &&
 optional_depends  libraw1394  '' ''   'Firewire support'           &&
-optional_depends  libxklavier '' ''   'keyboard configuration'     &&
-optional_depends  LIBUSB      '' ''   'usb support'                &&
-optional_depends  pciutils    '' ''   'view PCI details in kinfocenter' &&
-
-if [[ "$BLUEZ" != "none" ]]; then
-        depends $BLUEZ;
-fi &&
-
+optional_depends  libusb      '' ''   'usb support'                &&
+optional_depends  nepomuk-core '' '-DCMAKE_DISABLE_FIND_PACKAGE_NepomukCore=1'  'Nepomuk support'            &&
+optional_depends  PYTHON '' '-DCMAKE_DISABLE_FIND_PACKAGE_PythonLibrary=1' 'some plasma modules'&&
+optional_depends  qjson       '' ''   'manage JSON objects'        &&
 optional_depends  gpsd        '' ''   'geolocation support vis GPS' &&
 optional_depends  openldap    '' ''   'LDAP authentication'        &&
-optional_depends  LIBSASL     '' ''   'Cyrus SASL authentication'  &&
-optional_depends  pykde4      '' ''   'scripting Python plasmoids' &&
-optional_depends  qedje       '' ''   'scripting edje plasmoid'    &&
-optional_depends  soprano     '' ''   'Semantic Desktop Storing'   &&
-optional_depends  nepomuk-core '' ''  'Nepomuk Core Library support' &&
-optional_depends  boost       '' ''   'Required for certain Plasma DataEngines (Akonadi, RSS, Calendar)' &&
-optional_depends  akonadi     '' ''   'Required for certain Plasma DataEngines (Akonadim Calander)' &&
-optional_depends  kdepim4     '' ''   'KDE Libraries for PIM'      &&
-optional_depends  qjson       '' ''   'to manage JSON objects'     &&
+#optional_depends  LIBSASL     '' ''   'Cyrus SASL authentication'  &&
+#optional_depends  qedje       '' ''   'scripting edje plasmoid' &&
+optional_depends  linux-pam   '' ''   'enhanced security with PAM' &&
 optional_depends  consolekit  '' ''   'ConsoleKit integration in KDM' &&
 optional_depends  polkit-qt-1 '' ''   'PolicyKit integration in KDM' &&
-optional_depends  linux-pam   '' ''   'PAM integration in KDM'  &&
-optional_depends  network-manager  '' ''   'for NetworkManager support in Solid' &&
-optional_depends  OPENGL      '' ''   'to view OpenGL details in kinfocenter'
+#optional_depends networkmanager  '' ''   ''
+optional_depends  UDEV        '' ''   'hardware monitoring'
+optional_depends  pciutils    '' ''   'PCI support'
+optional_depends  fontconfig  '' ''   'font configuration'
+optional_depends  BLUEZ       '' ''   'Bluetooth support'
+optional_depends  wayland     '' ''   'Wayland compositor support' &&
+if is_depends_enabled $SPELL wayland;then
+  depends libxkbcommon
+fi
 
