@@ -2,6 +2,10 @@ default_build() {
   qt4_cmake_build
 }
 
+function default_install() {
+ cmake_install
+}
+
 # we need a default_final, default_post_remove
 # so that the mime  databases get updated
 update_databases() {
