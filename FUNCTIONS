@@ -2,7 +2,7 @@
 . $GRIMOIRE/config_query_multi.function
 
 QT4DIR="$INSTALL_ROOT/opt/qt4"
-KDE4DIR="$QT4DIR"
+KF4DIR="$QT4DIR"
 SRC=$SOURCE_DIRECTORY
 
 if is_depends_enabled $SPELL python;then
@@ -26,7 +26,7 @@ function default_pre_build () {
 
 #---------------------------------------------------------------------
 function kde4_build() {
-  export XDG_DATA_DIRS=$KDE4DIR/share:/usr/share
+  export XDG_DATA_DIRS=$KF4DIR/share:/usr/share
   OPTS+=" -DCMAKE_BUILD_TYPE=$KDE_BUILD_TYPE \
           -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
   qt4_cmake_build
@@ -84,9 +84,9 @@ function cmake_build() {
     MAKE=make
   fi &&
 
-  message INSTALL_PREFIX=$KDE4DIR &&
+  message INSTALL_PREFIX=$KF4DIR &&
 
-  cmake -DCMAKE_INSTALL_PREFIX=$KDE4DIR \
+  cmake -DCMAKE_INSTALL_PREFIX=$KF4DIR \
         -DCMAKE_INSTALL_LIBDIR=lib \
         -DCMAKE_INSTALL_MANDIR=share/man \
         -DCMAKE_PREFIX_PATH=share/apps/cmake/modules \
@@ -110,6 +110,16 @@ function qt4_cmake_build() {
   export PKG_CONFIG_PATH="$QT4DIR/lib/pkgconfig"
   cmake_build
 }
+
+
+
+qt4_build() {
+  cd  $SOURCE_DIRECTORY &&
+  PATH="$QT4DIR/bin:$PATH"
+  qmake PREFIX=$QT4DIR $OPTS $SRC/*.pro &&
+  make
+}
+
 
 #---
 ## Default configure
