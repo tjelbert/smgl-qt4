@@ -1,8 +1,8 @@
            SPELL=kactivities
-         VERSION=x
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:2bf527f4a9ed2f1202ae3b474e396cde070362d392a13a00866b41fe638ab73be8838676bbeb67057510bc930449a7fce17ebb9d3299562922247390f1bfe9f7
           SOURCE="${SPELL}-${VERSION}.tar.xz"
    SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://www.kde.org"
       LICENSE[0]="GPL"
