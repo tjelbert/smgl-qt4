@@ -1,0 +1,19 @@
+depends cmake 
+if [[ ${KF5} == 'kde5' ]];then
+  depends extra-cmake-modules &&
+  depends qtbase &&
+  depends karchive &&
+  depends kde4support &&
+  depends ki18n    &&
+  depends kio      &&
+  depends kservice
+else
+  depends qt4 &&
+  depends kdelibs
+fi &&
+optional_depends poppler     '' '' 'PDF metadata'
+optional_depends mobipocket  '' '' 'mobi metadata'
+optional_depends ebook-tools '' '' 'epub metadata'
+optional_depends taglib      '' '' 'music metadata' &&
+optional_depends exiv2       ''  '' 'image metadata' &&
+optional_depends LIBAVCODEC  '' '' 'analyse video streams' 
