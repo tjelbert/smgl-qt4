@@ -1,5 +1,4 @@
 depends cmake    &&
 depends qt4      &&
 depends kdelibs &&
-depends kdebase4-runtime &&
-optional_depends kdebase-workspace4 '' '' 'kde4 desktop'
+depends kde-runtime
