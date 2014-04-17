@@ -1,7 +1,8 @@
 source  $SECTION_DIRECTORY/KDE_DEPENDS &&
-depends kde-baseapps &&
-depends libkipi4 &&
 depends exiv2   &&
 depends JPEG    &&
 depends phonon  &&
-optional_depends soprano '' '-DGWENVIEW_SEMANTICINFO_BACKEND=None' 'Semantic desktop support'
+depends kde-baseapps &&
+optional_depends libkipi4 '' '' 'image manipulation and export' &&
+optional_depends lcms2   '' '' 'colour mangement' &&
+optional_depends baloo '' '-DGWENVIEW_SEMANTICINFO_BACKEND=None' 'Semantic info backend'
