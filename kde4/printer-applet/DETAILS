@@ -1,14 +1,8 @@
            SPELL=printer-applet
-         VERSION=x
-          SOURCE="${SPELL}-${VERSION}.tar.xz"
-   SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
-SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
-        WEB_SITE="http://www.kde.org"
-      LICENSE[0]="GPL"
-         ENTERED=20120211
-        KEYWORDS=""
-           SHORT="KDE System tray icon for managing print jobs"
+         VERSION=0
+      PATCHLEVEL=9999
+           SHORT="deprecated"
 cat << EOF
-KDE System tray icon for managing print jobs
+deprecated spell [replaced by print-manager]
 EOF
+

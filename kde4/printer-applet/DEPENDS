@@ -1,4 +1,0 @@
-. $GRIMOIRE/KDE_DEPENDS
-
-depends pykde4 &&
-depends system-config-printer 
