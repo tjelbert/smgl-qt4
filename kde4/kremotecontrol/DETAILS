@@ -1,8 +1,8 @@
            SPELL=kremotecontrol
-         VERSION=x
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:5b82c6c24a65afb583a6f4a219b8a1f5b7ca0d3c171888ff8bb99328ef352baa0801dfa05b8f465d0f507f280c2457640f06be926f32d3209e587e916bbbe967
           SOURCE="${SPELL}-${VERSION}.tar.xz"
    SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://kde.org/applications/utilities/kremotecontrol/"
       LICENSE[0]="GPL"
