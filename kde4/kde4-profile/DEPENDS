@@ -28,7 +28,7 @@ optional_depends  kdenetwork4                        \
                   ""                                 \
                   "News client, and other programs"  &&
 
-optional_depends  kdepim4                            \
+optional_depends  kdepim                             \
                   ""                                 \
                   ""                                 \
                   "Personal information management"  &&

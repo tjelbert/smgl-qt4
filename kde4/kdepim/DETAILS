@@ -1,6 +1,6 @@
            SPELL=kdepim4
           SPELLX=${SPELL//4}
-         VERSION=x
+         VERSION=4.13.0
      SOURCE_HASH=sha512:
           SOURCE=$SPELLX-$VERSION.tar.xz
    SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
