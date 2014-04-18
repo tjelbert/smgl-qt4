@@ -1,8 +1,8 @@
            SPELL=superkaramba
-         VERSION=x
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:4e56ca8cbb0099ddeb2b068650b52ca7dde27b8c1341477e42150de6fed0616b1162b56e3cb9c24e353fda3a12cfa0b02d69de072f7a95ad5475f648d9d303cd
           SOURCE="${SPELL}-${VERSION}.tar.xz"
    SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://kde.org/applications/utilities/superkaramba/"
       LICENSE[0]="GPL"
