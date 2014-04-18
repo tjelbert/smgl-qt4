@@ -1,0 +1,15 @@
+           SPELL=baloo-widgets
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:dbad39ae30aabbdd61fdbdae016f924482447fcdcc2cb1be03f0a528dd8ceda7fc3d366ac78392692584029a085c4f589cdec413563240b76cec3d0a07b7eb8c
+          SOURCE=$SPELL-$VERSION.tar.xz
+   SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
+        WEB_SITE=http://baloo.kde.org
+         ENTERED=20131228
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4"
+           SHORT=GUI widgets for Baloo"
+cat << EOF
+GUI widgets for Baloo
+EOF

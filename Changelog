@@ -1,5 +1,7 @@
 2014-04-18 Treeve Jelbert <treeve@sourcemage.org>
 	* kde4/kget: was part of kdenetwork
+	* kde4/baloo: search engine
+	* kde4/baloo-widgets: desktop search
 
 2014-03-20 Treeve Jelbert <treeve@sourcemage.org>
 	* kde*: all the kde spells from the main grimoire,
