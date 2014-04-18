@@ -1,8 +1,3 @@
-optional_depends  kdeadmin4                         \
-                  ""                                \
-                  ""                                \
-                  "System administration programs"  &&
-
 optional_depends  kde-baseapps                 \
                   ""                           \
                   ""                           \
