@@ -1,8 +1,8 @@
            SPELL=jovie
-         VERSION=x
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:783e855e3313a09f33090ec934fb32910ae81b66d0a3127341348581b2b082d9ca3e99ec6dec93bf8329d1ab02721fc6ec75a30ae86d84b4e20af1cb05dab143
           SOURCE="${SPELL}-${VERSION}.tar.xz"
    SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://www.kde.org"
       LICENSE[0]="GPL"
