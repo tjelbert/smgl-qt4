@@ -1,8 +1,8 @@
            SPELL=kmag
-         VERSION=x
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:7a6289acc8785a5a75ac6a6b918efb2d5778c7c8a96703e935bd504ce56a34ccff3daeea5975d853a4d160a5a39f41e080409f0311273580fa9183a34d17db6c
           SOURCE="${SPELL}-${VERSION}.tar.xz"
    SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="www.kde.org"
       LICENSE[0]="GPL"
