@@ -1,9 +1,9 @@
            SPELL=kdevelop4
           SPELLX=${SPELL//4}
-         VERSION=x
+         VERSION=4.6.0
+     SOURCE_HASH=sha512:0d2239f4fdf9b78e757161911e44cbf9543347cf291504adde8b5d46390993ba907b55aa0653ba3b0de3d9aad949a7c7135b6626c1e733f9f2b7cc013b09eb77
       PATCHLEVEL=1
-     SOURCE_HASH=sha512:
-          SOURCE=$SPELLX-$VERSION.tar.bz2
+          SOURCE=$SPELLX-$VERSION.tar.xz
    SOURCE_URL[0]=$KDE_URL/stable/$SPELLX/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELLX-$VERSION"
         WEB_SITE=http://www.kdevelop.org/
