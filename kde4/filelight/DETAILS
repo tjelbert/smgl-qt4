@@ -1,8 +1,8 @@
            SPELL=filelight
-         VERSION=x
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:aab8333376779ecb9c8bc1f733e7a979fc11778724a7a717cd02197e6748885eaf9b44aabf3560e61fc0684ba0e0ce70336d305a151b9477113060c751812996
           SOURCE="${SPELL}-${VERSION}.tar.xz"
    SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://www.kde.org"
       LICENSE[0]="GPL"
