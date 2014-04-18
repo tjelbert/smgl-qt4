@@ -1,5 +1,5 @@
 
-optional_depends gwenview4 "" "" "image viewer for KDE" &&
+optional_depends gwenview "" "" "image viewer for KDE" &&
 optional_depends kamera "" "" "KDE integration for gphoto2 cameras" &&
 optional_depends kcolorchooser "" "" "utility to select a color" &&
 optional_depends kdegraphics-strigi-analyzer "" "" "Strigi analyzers for various graphics file formats" &&
