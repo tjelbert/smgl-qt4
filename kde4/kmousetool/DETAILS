@@ -1,8 +1,8 @@
            SPELL=kmousetool
-         VERSION=x
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:1ab72559750e060274626f38a4458b371898b4454df95f2334bf564792fb681e8e31b7633e9ce3c6a1f3eaa0bbdd1488f09cddd4ecef96d2d6d0a3370c49d226
           SOURCE="${SPELL}-${VERSION}.tar.xz"
    SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="www.kde.org"
       LICENSE[0]="GPL"
