@@ -3,7 +3,7 @@ sub_depends qt4 SQLITE   &&
 depends  sqlite      &&
 depends  lcms        &&
 depends  libkdcraw4  &&
-depends  libkexiv24  &&
+depends  libkexiv2   &&
 depends  libkipi4    &&
 depends  jasper      &&
 depends  JPEG        &&

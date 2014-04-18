@@ -1,4 +1,4 @@
 source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
-depends libkexiv24 &&
+depends libkexiv2 &&
 optional_depends xscreensaver '' '' ''   &&
 optional_depends eigen2 '' '' 'krotation and kpendulum screensavers'
