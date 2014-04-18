@@ -1,2 +1,3 @@
-depends kdelibs4 &&
+. $GRIMOIRE/KDE_DEPENDS
+
 depends speech-dispatcher 
