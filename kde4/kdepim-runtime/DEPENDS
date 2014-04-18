@@ -1,0 +1,8 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+depends kdepimlibs   &&
+depends akonadi  &&
+depends boost    &&
+depends libxml2  &&
+depends libxslt  &&
+depends shared-mime-info
+
