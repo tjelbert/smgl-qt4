@@ -1,4 +1,7 @@
 2014-04-18  Treeve Jelbert <treeve@sourcemage.org>
+	* kde4-apps/koffice2: spell deprecated [replaced by calligra]
+
+2014-04-18  Treeve Jelbert <treeve@sourcemage.org>
 	* kde4/kdebindings4: spell deprecated [replaced by kde4-bindings-profile]
 	* kde4/kget: was part of kdenetwork
 	* kde4/baloo: search engine
