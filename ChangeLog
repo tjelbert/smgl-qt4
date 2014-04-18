@@ -1,4 +1,5 @@
-2014-04-18 Treeve Jelbert <treeve@sourcemage.org>
+2014-04-18  Treeve Jelbert <treeve@sourcemage.org>
+	* kde4/kdebindings4: spell deprecated [replaced by kde4-bindings-profile]
 	* kde4/kget: was part of kdenetwork
 	* kde4/baloo: search engine
 	* kde4/baloo-widgets: desktop search
@@ -7,3 +8,4 @@
 	* kde*: all the kde spells from the main grimoire,
 	  as of revision 15ac2d418fba9fa112dba6fbd3235fa9be9ed6a5
 	  all history files have been truncated 
+
