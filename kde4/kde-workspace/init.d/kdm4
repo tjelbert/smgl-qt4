@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROGRAM=/usr/bin/kdm
+PROGRAM=/opt/qt4/bin/kdm
 RUNLEVEL=5
 PROVIDES=display_manager
 NEEDS="smgl-messagebus"
