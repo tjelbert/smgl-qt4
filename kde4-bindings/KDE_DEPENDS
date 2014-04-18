@@ -2,4 +2,4 @@ depends -sub CXX gcc &&
 depends cmake    &&
 depends qt4      &&
 depends automoc  &&
-depends kdebase4-runtime
+depends kde-runtime
