@@ -1,0 +1,15 @@
+           SPELL=kget
+         VERSION=4.13.0
+     SOURCE_HASH=sha512:8ef74a5779dfe9d18e1d2e91e9760e2762732707cbed556a60f8cfd57233de7597c96d82984c2f0c0af5caac25b29703544ad1611fd86a6ecc6f1bb0daf1453f
+          SOURCE="${SPELL}-${VERSION}.tar.xz"
+   SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE=http://www.kde.org
+         ENTERED=20130417
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4"
+           SHORT="file downloader"
+cat << EOF
+file downloader for KDE
+EOF
