@@ -9,7 +9,6 @@ optional_depends kolourpaint "" "" "KolourPaint is an easy-to-use paint program"
 optional_depends ksaneplugin "" "" "KScan plugin for scanning" &&
 optional_depends ksnapshot "" "" "utility for taking screenshots" &&
 optional_depends libkdcraw4 "" "" "interface to decode RAW picture files" &&
-optional_depends libkipi4 "" "" "interface to use kipi-plugins" &&
 optional_depends libksane "" "" "wrapper library for scanners" &&
 optional_depends mobipocket "" "" "A collection of plugins to handle mobipocket files" &&
 optional_depends okular "" "" "document viewer for kde" &&

@@ -4,7 +4,7 @@ depends  sqlite      &&
 depends  lcms        &&
 depends  libkdcraw4  &&
 depends  libkexiv2   &&
-depends  libkipi4    &&
+depends  libkipi     &&
 depends  jasper      &&
 depends  JPEG        &&
 depends  opencv      &&

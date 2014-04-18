@@ -3,6 +3,6 @@ depends exiv2   &&
 depends JPEG    &&
 depends phonon  &&
 depends kde-baseapps &&
-optional_depends libkipi4 '' '' 'image manipulation and export' &&
+optional_depends libkipi '' '' 'image manipulation and export' &&
 optional_depends lcms2   '' '' 'colour mangement' &&
 optional_depends baloo '' '-DGWENVIEW_SEMANTICINFO_BACKEND=None' 'Semantic info backend'
