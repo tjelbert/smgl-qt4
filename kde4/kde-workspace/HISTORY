@@ -1,3 +1,6 @@
+2014-04-19 Treeve Jelbert <treeve@sourcemage.org> 
+	* PRE_BUILD: fix 'shutdown -P' usage
+
 2014-04-16 Treeve Jelbert <treeve@sourcemage.org> 
 	* DETAILS: version 4.11.5
 	  this will be the last update for kde-workspace
