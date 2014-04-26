@@ -1,3 +1,7 @@
+2014-04-26 Treeve Jelbert <treeve@sourcemage.org> 
+	* DETAILS: version 4.11.8
+	  found a newer version, as part of kde-4.12.4
+
 2014-04-25 Treeve Jelbert <treeve@sourcemage.org>
 	* kde4.sh: fix qt4 path
 
