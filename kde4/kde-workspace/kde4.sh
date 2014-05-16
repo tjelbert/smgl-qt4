@@ -2,8 +2,8 @@
 if [ "$USER" != "root" ];then
 # setup KDE4 environment for SMGL
 
-export PATH=/opt/qt4/bin:$PATH
-export KDEDIR=$INSTALL_ROOT/usr
+export KDEDIR=$INSTALL_ROOT/opt/qt4
+#export PATH=/opt/qt4/bin:$PATH
 export KDEDIRS=$KDEDIR
 export KDE_DATA_DIRS=$KDEDIR/share
 export PATH=$KDEDIR/bin:$PATH
