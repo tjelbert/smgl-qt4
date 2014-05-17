@@ -1,0 +1,15 @@
+           SPELL=granatier
+         VERSION=4.13.1
+     SOURCE_HASH=sha512:b0704864b344ee31fba75279ab9593484cc66c46dab613e1d73760546582711028b9f7422e362b60c7e21dba2c560e9a0bc9f4f482fd7aadb14fe6df034d37d5
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/granatier
+         ENTERED=20120820
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4 games"
+           SHORT="ay bombs and kill your enemies"
+cat << EOF
+Walk through an arena, lay bombs and kill your enemies
+EOF
