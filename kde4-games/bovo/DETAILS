@@ -1,0 +1,15 @@
+           SPELL=bovo
+         VERSION=4.13.1
+     SOURCE_HASH=sha512:07cf7d783314c7ec49c07d8941bc5d5ba61c22a467f121cd826bcc63e294bcb1846dec5025ea38194d5f643660faaf2b4ec8d654f729cddb7fa1194eac062cc1
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/bovo
+         ENTERED=20120820
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4 games"
+           SHORT="Five-in-a-row board game"
+cat << EOF
+Five-in-a-row board game
+EOF
