@@ -1,9 +1,9 @@
 2014-04-30 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS:  version 4.8.6
+	* BUILD: simplify, use $QT$DIR
+	* INSTALL: delete
 
 2014-04-16 Treeve Jelbert <treeve@sourcemage.org>
-	* BUILD: use default_build, to $QT$DIR
-	* INSTALL: delete
 	* PRE_VUILD: remove obsolete code
 
 2014-04-16 Treeve Jelbert <treeve@sourcemage.org>

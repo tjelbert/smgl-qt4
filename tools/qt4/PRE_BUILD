@@ -36,6 +36,7 @@ fi  &&
 # fix use of firebird
 sed -i "s/-lgds/-lfbclient/" config.tests/unix/ibase/ibase.pro \
                              src/sql/drivers/drivers.pri  \
+                             src/sql/drivers/ibase/qsql_ibase.pri \
                              src/plugins/sqldrivers/ibase/ibase.pro &&
 
 # fix icu support
