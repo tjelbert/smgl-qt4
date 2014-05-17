@@ -1,6 +1,11 @@
            SPELL=kde4-multimedia-profile
-         VERSION=na
-        WEB_SITE=http://www.kde.org/
+         VERSION=4.13.1
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/kde4-multimedia-profile
+        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/
         KEYWORDS="kde"
          ENTERED=20110803
            SHORT="All spells in from kde4-multimedia"

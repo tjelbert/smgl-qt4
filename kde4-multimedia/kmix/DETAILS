@@ -1,10 +1,11 @@
            SPELL=kmix
-         VERSION=4.10.5
-          SOURCE="${SPELL}-${VERSION}.tar.xz"
-   SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:a04eafafd4acdec5915317400cd9c2ecc712aa5726f33e0a6ef3b24e2243a53c7ff66c4f3ac2c80832ac1d762fb4897d38c5e959bbd9458cb6a7aaef8a2cd529
-SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
-        WEB_SITE="www.kde.org"
+         VERSION=4.13.1
+     SOURCE_HASH=sha512:b3103f5df22bc353c33008d5fb0c6d3af6b42639bec2a4f21d60aff6f8203eadb97e430d94eacede468ddd742f6f84eae0a1244bf23c0eb3ffadc6625a3ce698
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/kmix
+        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/
       LICENSE[0]="GPL"
          ENTERED=20120208
         KEYWORDS=""

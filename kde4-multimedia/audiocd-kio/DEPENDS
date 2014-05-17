@@ -1,4 +1,4 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
 depends cdparanoia &&
-depends kdelibs4 &&
 depends libkcompactdisc &&
 depends libkcddb
