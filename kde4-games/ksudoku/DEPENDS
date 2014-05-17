@@ -1,0 +1,4 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+depends libkdegames  &&
+depends automoc &&
+optional_depends OPENGL '' '' 'OpenGL support'

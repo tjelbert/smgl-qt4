@@ -1,0 +1,15 @@
+           SPELL=ksudoku
+         VERSION=4.13.1
+     SOURCE_HASH=sha512:d6d19fdd020114cb5d9d2a3e1d0d75ce25477ff22c8aa9bff84f0ce30e35d42eb9d411d67b7db07efba40562dc272c82a2ea308a383a4a15b20818b1f6b62618
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/ksudoku
+         ENTERED=20120820
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4 games"
+           SHORT="Sudoku game for kde"
+cat << EOF
+Sudoku game for kde
+EOF
