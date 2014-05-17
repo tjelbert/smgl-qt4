@@ -1,0 +1,15 @@
+           SPELL=libkdegames
+         VERSION=4.13.1
+     SOURCE_HASH=sha512:9d46a83ff7283f7e2f9ea97be806b4c8088b62861d483f51e7b2e1fc5914a8bb598dfb071d3d5cd8c44cdddf3ed2c48556bd7a0f0a2b9dd1b1663adb9270ee2d
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/libkdegames
+         ENTERED=20120820
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4 games"
+           SHORT="library for KDE games"
+cat << EOF
+library for KDE games
+EOF
