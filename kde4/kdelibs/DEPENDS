@@ -22,7 +22,7 @@ depends perl     &&
 depends libpng   &&
 depends libxml2  &&
 depends libxslt  &&
-depends giflib   &&  
+depends GIFLIB   &&  
 depends JPEG &&
 depends libdbusmenu-qt &&
 depends docbook-dtd &&
