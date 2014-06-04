@@ -1,3 +1,6 @@
+2014-06-04 Treeve Jelbert <treeve@sourcemage.org>
+	* CONFIGURE, BUILD: addeds, allow disabling daemon
+
 2014-05-16 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 4.13.1
 
