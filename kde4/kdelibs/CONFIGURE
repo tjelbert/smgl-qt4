@@ -1,5 +1,1 @@
-source  $SECTION_DIRECTORY/KDE_CONFIGURE
-config_query_option KDE3_SUP 'support deprecated kde3 modules?' n \
-                             '' \
-                             '-DKDE_PLATFORM_FEATURE_DISABLE_DEPRECATED=true'
-
+source $GRIMOIRE/CMAKE_CONFIGURE

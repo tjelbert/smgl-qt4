@@ -27,8 +27,7 @@ function default_pre_build () {
 #---------------------------------------------------------------------
 function kde4_build() {
   export XDG_DATA_DIRS=$KDE4DIR/share:/usr/share
-  OPTS+=" -DCMAKE_BUILD_TYPE=$KDE_BUILD_TYPE \
-          -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
+  OPTS+=" -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
   qt4_cmake_build
 }
 
@@ -91,7 +90,7 @@ function cmake_build() {
         -DCMAKE_INSTALL_MANDIR=share/man \
         -DCMAKE_PREFIX_PATH=share/apps/cmake/modules \
         -DSYSCONFDIR=$INSTALL_ROOT/etc \
-        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_BUILD_TYPE=$CM_BUILD_TYPE \
         $OPTS $SRC &&
   $MAKE
 }
@@ -99,7 +98,7 @@ function cmake_build() {
 function cmake_install() {
   if [[ -f /usr/bin/ninja ]];then
     ninja install
-  else
+x  else
     make install
   fi
 }
