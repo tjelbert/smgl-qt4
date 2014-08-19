@@ -16,7 +16,7 @@ depends phonon   &&
 depends dbus     &&
 depends UDEV     &&
 depends pkgconfig &&
-depends openssl  &&
+depends SSL  &&
 depends pcre     &&
 depends perl     &&
 depends libpng   &&
