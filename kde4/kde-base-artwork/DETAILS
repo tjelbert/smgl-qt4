@@ -1,0 +1,15 @@
+          SPELL=kde-base-artwork
+         VERSION=4.14.0
+     SOURCE_HASH=sha512:39a66e5e289f2525a8c19df77c444575dd0019c09ad11b0de93f88f562f6b75221e51d87a5a21212ee253f53b4056e068826faa62e906b61901da4bf4d872f20
+          SOURCE=$SPELL-$VERSION.tar.xz
+   SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
+        WEB_SITE=http://www.kde.org
+         ENTERED=2014-08-202
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4"
+           SHORT="default splash screen for KDE"
+cat << EOF
+default splash screen for KDE
+EOF
