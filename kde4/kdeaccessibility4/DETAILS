@@ -1,5 +1,5 @@
            SPELL=kdeaccessibility4
-         VERSION=x
+         VERSION=4.14.0
       LICENSE[0]=GPL
         WEB_SITE=http://www.kde.org
          ENTERED=20040113
