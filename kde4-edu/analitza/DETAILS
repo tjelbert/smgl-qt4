@@ -1,8 +1,8 @@
            SPELL=analitza
-         VERSION=4.13.1
+         VERSION=4.14.0
           SOURCE="${SPELL}-${VERSION}.tar.xz"
    SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-     SOURCE_HASH=sha512:
+     SOURCE_HASH=sha512:7dc2fb9ed731e7eea50878932d85ba88263acd88e50266f4e97094ce25d5a7de054f5893c2f9f5e7cb71d716002bf74bddeb0ac8af96048f187fc392d5d6189d
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="www.kde.org"
       LICENSE[0]="GPL"
