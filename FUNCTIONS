@@ -98,7 +98,7 @@ function cmake_build() {
 function cmake_install() {
   if [[ -f /usr/bin/ninja ]];then
     ninja install
-x  else
+  else
     make install
   fi
 }
