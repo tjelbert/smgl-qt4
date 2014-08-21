@@ -1,5 +1,5 @@
            SPELL=kde4-graphics-profile
-         VERSION=na
+         VERSION=4.14.0
         WEB_SITE=http://www.kde.org/
         KEYWORDS="kde"
          ENTERED=20110803

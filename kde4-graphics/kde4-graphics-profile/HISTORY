@@ -1,3 +1,6 @@
+2014-08-21 Treeve Jelbert <treeve@sourcemage.org> 
+	* DETAILS: version 4.14.0
+
 2011-08-16 Bor Kraljič <pyrobor@ver.si>
 	* DEPENDS: fixed spell duplicates: libkexiv2 -> libkexiv24, libkdcraw -> libkdcraw4
 	  gwenview -> gwenview4, libkipi -> libkipi4
