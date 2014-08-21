@@ -1,7 +1,7 @@
            SPELL=kturtle
-         VERSION=4.13.1
+         VERSION=4.14.0
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:cd0a1ae0d5dca9457a9d3664a48a397861d380f3c614fd8ccd2b7b7d0fc3a552e568cf1475829ec7bfee8a9a51de1ffc58ab31bf178d6b607c542ddeba4fcff1
+     SOURCE_HASH=sha512:1699e1df735835eddb6857820fc8300af661aea62d064678e107da46844b5f4efc03b527b1df0576aa7dccaab12f6b6fb3c23b0a7edd4ead9bc261fbbbe53bbe
       SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=http://www.kde.org
