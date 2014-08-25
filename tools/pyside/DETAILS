@@ -1,0 +1,25 @@
+QT_URL=http://download.qt-project.org/official_releases
+           SPELL=pyside
+        WEB_SITE=http://qt-project.org
+if [[ $PYSIDE == git ]];then
+         VERSION=git
+          SOURCE=$SPELL-$VERSION.tar.bz2
+   SOURCE_URL[0]=git://gitorious.org/pyside/$SPELL.git:$SPELL-git
+  FORCE_DOWNLOAD=on
+   SOURCE_IGNORE=volatile
+else
+         VERSION=qt4.8+1.2.0
+     SOURCE_HASH=sha512:a7006c4da0856412a8aac6877e5b827214a171c20688fa6527daf45838a0e7167b1a8d144cadbafeb220be0eeb7aee83c009e355dfb1b7ef59e5d215fa486bc8
+          SOURCE=$SPELL-$VERSION.tar.bz2
+   SOURCE_URL[0]=$QT_URL/pyside/$SOURCE
+fi
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+         ENTERED=20080921
+      LICENSE[0]=LGPL
+        KEYWORDS="qt4 python libs"
+           SHORT="Python bindings for the Qt GUI toolkit"
+cat << EOF
+The PySide project provides LGPL Qt bindings for Python and related tools
+for binding
+generation.
+EOF
