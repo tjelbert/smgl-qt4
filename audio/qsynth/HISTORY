@@ -1,0 +1,56 @@
+2011-07-30 Florian Franzmann <siflfran@hawo.stw.uni-erlangen.de>
+	* DEPENDS: changed dependency on g++ to dependency on gcc with
+	  sub-depends on CXX (scripted)
+
+2009-11-02 Bor Kraljič <pyrobor@ver.si>
+	* DETAILS: updated spell to 0.3.4
+
+2008-03-18 Eric Sandall <sandalle@sourcemage.org>
+	* DEPENDS: We're all one big happy xorg-modular, no need to check
+	  anymore
+
+2008-03-17 Juuso Alasuutari <iuso@sourcemage.org>
+	* DETAILS: Updated to 0.3.2.
+	* BUILD: Removed useless PATH hack. (As a side note: Contrary
+	  to what I said in the 2007-09-15 entry, it was the Qt4 path
+	  that was being added to PATH, not the fluidsynth path.)
+
+2007-09-15 Juuso Alasuutari <iuso@sourcemage.org>
+	* DETAILS: Updated to 0.3.1.
+	* CONFIGURE: Added, query about system tray option.
+	* DEPENDS: Changed depends qt-x11 to qt4, added depends libx11
+	  and libxext for xorg-modular.
+	* BUILD: Added, add system tray option to OPTS and fluidsynth
+	  path to PATH.
+	* PRE_BUILD: Added, need to sed configure script so that it
+	  finds qt4's qmake/moc/uic executables instead of qt-x11's
+	  equivalent ones if both libraries are installed.
+
+2006-09-05 Juuso Alasuutari <iuso@sourcemage.org>
+	* DETAILS: Removed BUILD_API=2, UPDATED, and MAINTAINER. Edited 
+	  KEYWORDS and descriptions. Minor formatting fixes.
+	* DEPENDS: Added depends g++, missing &&'s.
+	* BUILD: Removed, handled by build API 2.
+
+2006-08-09 Juuso Alasuutari <iuso@sourcemage.org>
+	* moved spell to audio-creation section
+
+2006-06-24 Bearcat M. Sandor <sourcemage@feline-soul.com>
+	* DETAILS: Updated to 0.2.5
+
+2006-06-12 Arwed v. Merkatz <v.merkatz@gmx.net>
+	* DETAILS: inserted BUILD_API=1 line
+
+2006-03-12 Karsten Behrmann <BearPerson@sourcemage.org>
+	* DETAILS: (automated) Add KEYWORDS
+
+2005-11-29 Seth Woolley <seth@tautology.org>
+	* DETAILS: MD5 -> SHA512
+
+2004-04-15 Unet <audio@sourcemage.org>
+	* DETAILS: Updated
+	* BUILD: Fixing bug #6430, leading to a qt problem...
+
+2003-11-19 Unet <audio@sourcemage.org>
+	* DETAILS, HISTORY, DEPENDS, BUILD: Created
+
