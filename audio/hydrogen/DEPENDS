@@ -1,0 +1,16 @@
+depends  qt4         &&
+depends  scons       &&
+depends  libsndfile  &&
+depends JACK-DRIVER  &&
+depends libtar       &&
+depends liblrdf      &&
+
+optional_depends  alsa-lib            \
+                  "--enable-alsa"     \
+                  "--disable-alsa"    \
+                  "for ALSA support"  &&
+
+optional_depends  flac  	            \
+                  "--enable-flac-support"   \
+                  "--disable-flac-support"  \
+                  "for flac support" 

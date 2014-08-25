@@ -1,0 +1,77 @@
+2012-07-25 Thomas Orgis <sobukus@sourcemage.org>
+	* DETAILS: update to 0.9.5
+	* BUILD: fix QTDIR to find qt4 bins
+
+2010-04-24 George Sherwood <gsherwood@sourcemage.org>
+	* DETAILS: Updated to version 0.9.4
+	* PRE_BUILD: Removed
+	* DEPENDS: Removed depends audiofile. Now depends scons and qt4
+	  depends liblrdf and libtar
+	* BUILD: Use scons
+	* INSTALL: Added to use scons
+
+2008-04-13 Eric Sandall <sandalle@sourcemage.org>
+	* PRE_BUILD: Apply gcc43.patch
+	  Apply flac.patch (Fixes Bug #14078
+	* gcc43.patch: Fixes for GCC 4.3.0
+	* flac.patch: Patch from Anthony Hillairet <anthony@hillairet.org>
+	  from Bug #14078 to fix compilation against flac
+
+2006-11-13 Jaka Kranjc <lynxlynxlynx@sourcemage.org>
+	* BUILD: added sourcing of profile script for qt, a stab at fixing #11821
+
+2006-07-24 Juuso Alasuutari <iuso@sourcemage.org>
+	* DETAILS: Corrected WEB_SITE, removed UPDATED and BUILD_API.
+	* CONFIGURE: Added, config_query_option for OSS support.
+	* PRE_BUILD: Added, moved gcc4 patching here.
+	* BUILD: Removed gcc4 patching, added OSS option to OPTS.
+
+2006-07-20 Unet <unet@sourcemage.org>
+	* DETAILS: Corrected url (bug 10758)
+	* gcc4.patch: added for compilation with gcc4
+
+2006-06-18 Arjan Bouter <abouter@sourcemage.org>
+	* DEPENDS: added/fixed some optional_depends
+
+2006-03-12 Karsten Behrmann <BearPerson@sourcemage.org>
+	* DETAILS: (automated) Add KEYWORDS
+
+2006-03-02 anoxia <anoxia@sourcemage.org>
+        * DETAILS: updated to 0.9.3
+        * DEPENDS: added libsndfile
+
+2005-11-29 Seth Woolley <seth@tautology.org>
+	* DETAILS: MD5 -> SHA512
+
+2005-08-08 Flavien Bridault <disk@sourcemage.org>
+        * DETAILS: Updated to 0.9.2
+	* BUILD, qt.patch: removed, no longer needed,
+	  removed update-menus call in Makefile as we don't provide the command
+	  in the grimoire
+
+2005-01-10 Unet <audio@sourcemage.org>
+	* DEPENDS: Added flac
+	* BUILD, qt.patch: fixes problems with gcc 3.4.x
+
+2005-01-03 Unet <audio@sourcemage.org>
+	* DETAILS: Bump to 0.9.1
+
+2004-09-09 Eric Sandall <sandalle@sourcemage.org>
+	* DETAILS: Updated to 0.9.0
+
+2004-08-24 Eric Sandall <sandalle@sourcemage.org>
+	* DETAILS: Updated to 0.9.0beta2 (Fixes Bug #6945)
+	  Removed MAINTAINER
+	  Added BUILD_API=2
+	  Shortened SHORT
+	* DEPENDS: Formatted to Guru Handbook
+
+2004-04-18 Unet <audio@sourcemage.org>
+	* DEPENDS: added audiofile
+
+2004-02-16 Unet <audio@sourcemage.org>
+	* DETAILS: Bump to 0.8.2
+
+2003-12-17 Unet <audio@sourcemage.org>
+	* DEPENDS, DETAILS, HISTORY: Created
+
