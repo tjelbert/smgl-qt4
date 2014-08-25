@@ -1,0 +1,22 @@
+           SPELL=pyside-tools
+        WEB_SITE=http://www.pyside.org
+if [[ $PYSIDE == git ]];then
+         VERSION=git
+          SOURCE=$SPELL-$VERSION.tar.bz2
+   SOURCE_URL[0]=git://gitorious.org/pyside/$SPELL.git:$SPELL-git
+  FORCE_DOWNLOAD=on
+   SOURCE_IGNORE=volatile
+else
+         VERSION=0.2.13
+     SOURCE_HASH=sha512:7759bc7087651d2a18053d9a5b9e791711c1c706024dad8ebd35f7824ecf60a9468c114e09ddf63337880feb668c63002ddeaadd270ba421c7d841a45bbc67e0
+          SOURCE=$SPELL-$VERSION.tar.bz2
+   SOURCE_URL[0]=$WEB_SITE/files/$SOURCE
+fi
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+         ENTERED=20090906
+      LICENSE[0]=LGPL
+        KEYWORDS="qt4 python"
+           SHORT="PySide development tools"
+cat << EOF
+PySide development tools (pyuic and pyrcc)
+EOF
