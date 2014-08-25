@@ -1,0 +1,20 @@
+           SPELL=pyqt4
+          SPELLX=PyQt-x11-gpl
+         VERSION=4.10.4
+     SOURCE_HASH=sha512:6e99331f84a246e939e2f203db5065ffc54eed31889b07132de52aa88daae60aabd01a32e886bdbac7c22012fc15df907ee637d1d5e030d8e6912c41d6e1f760
+             URI=PyQt4
+          SOURCE=$SPELLX-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
+   SOURCE_URL[0]=$SOURCEFORGE_URL/pyqt/PyQt4/PyQt-${VERSION}/${SOURCE}
+        WEB_SITE=http://www.riverbankcomputing.co.uk/software/pyqt/
+         ENTERED=20070614
+      LICENSE[0]=GPL
+        KEYWORDS="qt python libs"
+           SHORT="Python bindings for the Qt GUI toolkit"
+cat << EOF
+From the website:
+PyQt is a set of Python bindings for the Qt toolkit. The bindings are
+implemented as a set of Python modules: qt, qtcanvas, qtgl, qtnetwork,
+qtsql, qttable and qtxml, and contains 300 classes and over 5,750
+functions and methods.
+EOF
