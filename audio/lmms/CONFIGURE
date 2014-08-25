@@ -1,0 +1,7 @@
+persistent_read
+LMMS_VST=${LMMS_VST/--without-vst/-DWANT_VST=0}
+LMMS_VST=${LMMS_VST/--with-vst/-DWANT_VST=1}
+
+config_query_option  LMMS_VST                                             \
+                     "Enable support for builtin VST plugin hosting?"  n  \
+                     "-DWANT_VST=1"  "-DWANT_VST=0"
