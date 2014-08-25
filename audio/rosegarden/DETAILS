@@ -1,0 +1,33 @@
+           SPELL=rosegarden
+if [[ $RG_VCS == y ]]
+then
+  if [[ $RG_VCS_AUTOUPDATE == y ]]
+  then
+         VERSION=$(date +%Y%m%d)
+  else
+         VERSION=svn
+  fi
+          SOURCE=$SPELL-svn.tar.bz2
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-svn"
+   SOURCE_URL[0]=svn_http://$SPELL.svn.sourceforge.net/svnroot/$SPELL/trunk/$SPELL:$SPELL-svn
+   SOURCE_IGNORE=volatile
+  FORCE_DOWNLOAD=on
+else
+         VERSION=11.06
+          SOURCE=$SPELL-$VERSION.tar.bz2
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
+   SOURCE_URL[0]=$SOURCEFORGE_URL/$SPELL/$SOURCE
+     SOURCE_HASH=sha512:cbfbfa0e0c46b75a5826ebd3b77ebc14196e7dc611de10c6388fbe1477bb6bba9ef17d08e62871fb97ebcf7ded74534564804cbedb25c24d7bfed179f0538905
+fi
+        WEB_SITE=http://www.rosegardenmusic.com/
+         ENTERED=20020514
+      LICENSE[0]=GPL
+        KEYWORDS="music editors audio"
+           SHORT="A professional music composition and editing environment."
+cat << EOF
+Rosegarden is a professional audio and MIDI sequencer, score editor, and 
+general-purpose music composition and editing environment. Rosegarden is 
+an easy-to-learn, attractive application that runs on Linux, ideal for 
+composers, musicians, music students, and small studio or home recording 
+environments.
+EOF

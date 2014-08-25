@@ -1,0 +1,19 @@
+depends  FFTW       &&
+depends -sub CXX gcc  &&
+depends  libxt      &&
+depends -sub QT3 qt4  &&
+depends  alsa-lib &&
+depends  JACK-DRIVER &&
+depends  ladspa &&
+depends  dssi &&
+depends  liblo &&
+depends  liblrdf &&
+optional_depends  libxft  \
+                  ""      \
+                  ""      \
+                  "for better score rendering quality"  &&
+
+optional_depends  lirc             \
+                  ""  \
+                  ""  \
+                  "for remote control support"
