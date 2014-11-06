@@ -1,0 +1,50 @@
+This reposiitory is intended to be layered over the standard grimoire, for use in those case where 
+you wish to install anything which depends on Qt2, including KDE4 and various applications.
+
+All spells in this grimoire will be installed to '/opt/qt4'.
+
+The reason for doing this is that, although Qt5 and KF5 could be co-installedwith the Qt4/KDE4 
+eqivalents, many of the other spells cannot be.
+
+Since it is not known when QT5 based versions of various applications will be released,  we need
+a gradual transition from Qt4 to Qt5.
+
+It is possible to to run existing Qt4 based applications the new Plasma Workspace, until a Qt5 
+based version becomes available.
+
+
+I currently have system which has mostly qt5/plasma applications. The only qt4 dependent spells are qt4, 
+kdelibs,calligra and a few games.
+
+This repository contains everything from the main grimoire which requires Qt4.
+There are many version upgrades and various things have been split int separate components or renamed.
+For this reason the recommended upgrade path form the spells in the main grimoire is to delete 
+everything that depends on Qt4 and start again.
+1. Rebuild qt4
+2. build some applications, games, etc.
+3. Optionally build kde-workspace, if you wish to run KDE4 sessions.
+   KDE-Workspace does not need to be installed when using KDE4 applications on a Plasma5 Workspace.
+
+Users of  KDE Desktop Sessions must be added to the 'kde4' group.
+
+If you intend to use Plasma5 sessions, you will need a Login Manager. SDDM (Simple Display Manager) is 
+recommended . It can also start KDE4 sessions.
+
+
+Use 'scribe add' in order to add it to your stack of grimoires, or edit 
+'/etc/sorcery/local/grimoire'.
+
+My stack looks like this, so qt5 has priority over qt4.:
+
+GRIMOIRE_DIR[0]=/var/git/smgl-qt5
+#GRIMOIRE_DIR[1]=/var/git/smgl-qt4
+GRIMOIRE_DIR[2]=/var/git/localrepos
+GRIMOIRE_DIR[3]=/var/git/smgl
+GRIMOIRE_DIR[4]=/home/treeve/mygrim
+#GRIMOIRE_DIR[5]=/var/git/smgl-b
+#GRIMOIRE_DIR[6]=/var/git/smgl-z
+
+
+
+
+Ref: see the corresponding smgl-qt5 repository.
