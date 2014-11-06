@@ -1,3 +1,7 @@
+2014-11-06  Treeve Jelbert <treeve@sourcemage.org>
+	* KDE_DEPENDS: remove kde-runtime
+	  applications whould not rely on it
+	  
 2014-08-20  Treeve Jelbert <treeve@sourcemage.org>
 	* kde4/kde-base-artwork: add default splash screen
 
