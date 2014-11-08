@@ -1,4 +1,7 @@
 2014-11-08  Treeve Jelbert <treeve@sourcemage.org>
+	* utils/dbus-qt3: spell deprecated 
+
+2014-11-08  Treeve Jelbert <treeve@sourcemage.org>
 	* smgl/utils/dbus-qt3: spell deprecated 
 
 2014-11-06  Treeve Jelbert <treeve@sourcemage.org>
