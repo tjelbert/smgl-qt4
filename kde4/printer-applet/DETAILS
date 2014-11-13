@@ -1,5 +1,5 @@
            SPELL=printer-applet
-         VERSION=4.14.0
+         VERSION=4.14.3
       PATCHLEVEL=9999
            SHORT="deprecated"
 cat << EOF
