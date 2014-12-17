@@ -1,8 +1,0 @@
-           SPELL=printer-applet
-         VERSION=4.14.3
-      PATCHLEVEL=9999
-           SHORT="deprecated"
-cat << EOF
-deprecated spell [replaced by print-manager]
-EOF
-
