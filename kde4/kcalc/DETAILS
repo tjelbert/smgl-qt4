@@ -1,10 +1,10 @@
            SPELL=kcalc
-         VERSION=4.14.3
-     SOURCE_HASH=sha512:ec8090b6bc8c78e7a63286c797e67617e4d9e335f6b29dce1dcbd41073465e6cf313d485f27f84a06d7cd04acc024051709b00f7be1dc8170e9531281d2deb16
-          SOURCE="${SPELL}-${VERSION}.tar.xz"
-   SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
-        WEB_SITE="http://www.kde.org"
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:ebc01791afacf1e3e0ccb6f99811d57353213830a202624964d79599ce5e34bb351983072a4acb0ebac1f9ebd34eafab85c211dc4ff7eb972f88306afef98368
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kcalc
       LICENSE[0]="GPL"
          ENTERED=20120211
         KEYWORDS=""
