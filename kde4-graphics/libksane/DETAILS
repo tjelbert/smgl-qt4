@@ -1,10 +1,10 @@
            SPELL=libksane
-         VERSION=4.14.3
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:073c085768fec7d85dfbe5b72266637af1bc1ec862de0ec73b661858ea72fccdf35502c0b0debf8487192a532685d932f1c8df2e576ebaafcb926b9a74b2fc37
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:8301d430fa20c9741da389c03a10f27a7028c20ab56949a0e716e2a65506e7f23815056c170b9c84a005f4ce5c0b95b4c3b05a8b901159aa1d446b70e38725df
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//libksane
          ENTERED=20110224
 #  SECURITY_PATCH=1
       LICENSE[0]=GPL
