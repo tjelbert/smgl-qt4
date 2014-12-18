@@ -1,10 +1,10 @@
            SPELL=klettres
-         VERSION=4.14.0
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:a28363661b6f0802840b87f02ddb4a9cea772969caf8ecb5bf36b3b8daf1b17343e13b7f6bbb5d729eabfdeb6517d8ce2f0e3ace85c792d3ce1fa3811fde99e6
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:bba352292a78eb0efea175e0d36babfca018d48d59dbe72e201d8ed2cd80aadacd7f5a692b8bf0d322ac2b374d2a569e07fac1d1b309b58e1ad27a8918135800
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//klettres
          ENTERED=20110803
       LICENSE[0]=GPL
         KEYWORDS="kde4"
