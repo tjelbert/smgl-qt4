@@ -1,11 +1,10 @@
            SPELL=audiocd-kio
-         VERSION=4.14.0
-     SOURCE_HASH=sha512:d58107b5f6f9364e0117696dcbceb283562f204190bb650c44b225f66bc30fb807f577b108eb7f2604c8fa2570ca82f627ace23065ed2dc203282dfc4bebfd06
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:41446e650fbde8e49781841019c3cb02c6a4a5463d831a549a696f4754935e91774271ee0519afdc19aeeff3a8d00b5f1fc21f4a00310edcef2a6cc6e2822026
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/audiocd-kio
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/
+        WEB_SITE=https://projects.kde.org/projects//audiocd-kio
       LICENSE[0]="GPL"
          ENTERED=20120208
         KEYWORDS=""
