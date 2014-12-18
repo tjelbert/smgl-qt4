@@ -1,10 +1,10 @@
            SPELL=kgeography
-         VERSION=4.14.0
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:ae374c24933df49fe80df29db547c46f49229e8693d43f9f5827941971cf8fac8346396cb51171cd4a4d6d35912a499ef49e06615526d336448fb5771439cbc9
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:d86bbb075b5878d19c4cb745244b137f1f2bb497b5c0856f3a2fef412319977bcabc5411fb362edebc9e08cba0e4a3ac0a9ba831e1ccd1ed66ec10685e9bf070
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//kgeography
          ENTERED=20110803
       LICENSE[0]=GPL
         KEYWORDS="kde4"
