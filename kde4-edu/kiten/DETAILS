@@ -1,10 +1,10 @@
            SPELL=kiten
-         VERSION=4.14.0
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:4c07e54ef6eae177ecadb7fa2fae3e21bafcdad1d5fcc9e77634e6d7a18b83d52421b4abb7a501e388fa4b514652f12e1c90d9f80a2605a8066f5eca50f686f2
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:c4b9397684382a4ddcc290e748d7135be37574020540a4d36b676a53ba19a5e490751d4d34bcf07bff9832e72fd647e928794d369a347c8455549f3968205898
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//kiten
          ENTERED=20110803
       LICENSE[0]=GPL
         KEYWORDS="kde4"
