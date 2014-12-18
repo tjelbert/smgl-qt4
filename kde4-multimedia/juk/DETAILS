@@ -1,11 +1,10 @@
            SPELL=juk
-         VERSION=4.14.0
-     SOURCE_HASH=sha512:4ba4eec5de731e858f5f89646b62357eeb2686a6654f1842198b143f7785fa2e89a3ac392f0d31ffd3e07a7c092d1305af85dbacee2189ce887bf7987b920b80
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:d455aee53574db5336b2ce289b6b35b6cc81e0bb82392df6db4058c44b85d77851a15e276c57dc76cf5e202c2fb8665e884b98feecd4216a747f7fb654ef88ff
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/juk
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/
+        WEB_SITE=https://projects.kde.org/projects//juk
       LICENSE[0]="GPL"
          ENTERED=20120208
         KEYWORDS=""
