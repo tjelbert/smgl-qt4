@@ -1,11 +1,10 @@
            SPELL=mplayerthumbs
-         VERSION=4.14.0
-     SOURCE_HASH=sha512:e5c189f57326ff272903db70609df33d132edc715331b87b9f12726eb8a713566321241f844785491790da8ca089b194e380638210f2ce9a3bb9b66cdf782b67
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:414aa5b5781701ce8416fba207468490bd44f73a8aeb90c98b96cd4fb1a3b739b9bc0a455588e25c8b1a3363fa917d6ee370dbdceca2eca0e3a8458aa6dee830
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/mplayerthumbs
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/
+        WEB_SITE=https://projects.kde.org/projects//mplayerthumbs
       LICENSE[0]="GPL"
          ENTERED=20120208
         KEYWORDS=""
