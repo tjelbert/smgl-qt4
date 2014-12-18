@@ -1,10 +1,10 @@
            SPELL=ktouch
-         VERSION=4.14.0
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:23ffa8aec9f93b01677d5443a515013208ac5914d9957bb3bad4b6074a53f648dc0bcfae5299203450ba58ee11e5226285b52938de359c6eef9996bff5bc2ec6
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:8b4ea581657997e1e456524d4fc4ecdea4b912c725ef4d39a7f7211ca27f48bf6f88f5e1033bf04f64753e7e085081a03e01b108c101dbe8c42e6859cd860edd
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//ktouch
          ENTERED=20110803
       LICENSE[0]=GPL
         KEYWORDS="kde4"
