@@ -1,11 +1,10 @@
            SPELL=libkcompactdisc
-         VERSION=4.14.0
-     SOURCE_HASH=sha512:3ade208ff099de9c19dbe9177fae678181d27a5d747a0118e423717eaf0221b19211db4d6ebf1e95a52d46b3a449d9e4d031f5a1d6ccba65c16c9fc76f1652e8
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:b43e35688eb8e9fbddbfd6f4d0f6d72241de1306435d83faa96095d6359683058d534db7a6b8063fab3304436cfca04be21dcdd7e423b02e6afe0c3120682924
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/libkcompactdisc
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/
+        WEB_SITE=https://projects.kde.org/projects//libkcompactdisc
       LICENSE[0]="GPL"
          ENTERED=20120208
         KEYWORDS=""
