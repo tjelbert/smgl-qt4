@@ -1,11 +1,10 @@
            SPELL=mobipocket
-          SPELLX=kdegraphics-mobipocket
-         VERSION=4.14.3
-     SOURCE_HASH=sha512:65f27946f26cc6d8be817090c36de60a4678897ddcc6d0cab465b527eb47fa06adcc847f836b89ba63555629bfbb5c207147b567f4a76911f6d8ca5635764698
-          SOURCE=$SPELLX-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
-        WEB_SITE=http://www.kde.org
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//mobipocket
          ENTERED=20110219
       LICENSE[0]=GPL
         KEYWORDS="kde4"
