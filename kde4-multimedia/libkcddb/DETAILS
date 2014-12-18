@@ -1,11 +1,10 @@
            SPELL=libkcddb
-         VERSION=4.14.0
-     SOURCE_HASH=sha512:2a4c56db83c5e767b42c4f31e57bc6c6549b6e6b81860c1e581835f28ad7ab153b168a0ca781e4fcc3decf3d36701a1c8bc32a7d8dbb79265dc53ddfa734a58f
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:d818b38b258df787a908f0fc7ca59ec3680376bc5a1989c03cf12cb7737bdc57df07a33a88b5545a0db862bd6a06ce5def8c3aff182e02656ba5da8a1687e084
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/libkcddb
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/
+        WEB_SITE=https://projects.kde.org/projects//libkcddb
       LICENSE[0]="GPL"
          ENTERED=20120208
         KEYWORDS=""
