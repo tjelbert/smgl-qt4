@@ -1,10 +1,10 @@
            SPELL=kbruch
-         VERSION=4.14.0
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:d23c1fb9afba8bc559a10f5b4bc705500da4a4e0d7f0387e8c603cf8fabc831d5c8c5e7e524dd11d370283ef28ef48fa3b63c04343ccb804347c4c2438fdacbb
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:29dc98f7b1dfb77c911ca96314ffbff71dcc1f58b925a6afcc65932fd64a4c7532954be3af00ee60e31e65cafc5e8eba7fae722d236673b5bcb62ce731617b8c
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//kbruch
          ENTERED=20110803
       LICENSE[0]=GPL
         KEYWORDS="kde4"
