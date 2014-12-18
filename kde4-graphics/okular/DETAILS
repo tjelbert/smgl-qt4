@@ -1,10 +1,10 @@
            SPELL=okular
-         VERSION=4.14.3
-     SOURCE_HASH=sha512:a32b3e3f0591d6d20caf37bb98eb15d1c4cef5e55238c459d55e753e9d9d6b0afebad6d2548fdfdffc99779d477f4a991038c47d841a322db8e44a39378f165a
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:4bee0801fc1ef8d686075803fdce62fc712e5ac48720b7dc6d034c5de929ce1ed3888df7f2d389d3018abd4cb768e820901c1a105de6ce7d8be3f03a664aa3b1
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//okular
          ENTERED=20110301
 #  SECURITY_PATCH=1
       LICENSE[0]=GPL
