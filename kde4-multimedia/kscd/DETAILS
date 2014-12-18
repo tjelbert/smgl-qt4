@@ -1,11 +1,10 @@
            SPELL=kscd
-         VERSION=4.14.0
-     SOURCE_HASH=sha512:be1043500627ab32673f40fdb0f2801cd36949bc6199d63e74e732ee37ad4bbd6c0e35d1cdaf0ac587cf85ec3a63d8173012ea5b87d97975b419ee9022fe2ae2
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:025fcabd63a1c6948426a3d9fbe6cd31d30cc8b8f74512b72a4351e1833052489a990b6b565c6e6d3607798dd409ceb0ccc1dd09e3e1b2a4e5fedaa453fac6e4
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/kscd
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/
+        WEB_SITE=https://projects.kde.org/projects//kscd
       LICENSE[0]="GPL"
          ENTERED=20120208
         KEYWORDS=""
