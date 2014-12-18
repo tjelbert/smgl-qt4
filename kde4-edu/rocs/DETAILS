@@ -1,10 +1,10 @@
            SPELL=rocs
-         VERSION=4.14.0
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:763eafd075ec8a8fb7e263f73e4899c626d6f3d76cdc6eb9e4a65fe820ddaf29cb49fda343839ad1cddb00b736f66d81765aad2d415e6386619e027b2826fa6f
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:84b83c27caa9547a859a44282e1ec54b35c13390d1b8b3c661aa282f1ba9c147a4c66513a9e78886e82be15987330f704d9c10c92a3f8f1c4fea378c748535a1
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//rocs
          ENTERED=20110218
 #  SECURITY_PATCH=1
       LICENSE[0]=GPL
