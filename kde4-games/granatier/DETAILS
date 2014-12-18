@@ -1,10 +1,10 @@
            SPELL=granatier
-         VERSION=4.14.3
-     SOURCE_HASH=sha512:8a5d915048e36701781fc9a8a4d363c421cc2ea1817b759813e606d18d9b2ee25a6cf5beaa88d659fc65b6a48295a9fe459baa6b4fefa29fdce8e5c6ad4358f8
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:779e851afc99ed0ab4867449ae63e972bb8e7348da550cf58038d03172184e0abfff7e519720a40dbcb2e51ab885d1fd678feb089323abc75d80fa4960882cd4
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/granatier
+        WEB_SITE=https://projects.kde.org/projects//granatier
          ENTERED=20120820
 #  SECURITY_PATCH=1
       LICENSE[0]=GPL
