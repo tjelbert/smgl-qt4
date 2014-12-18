@@ -1,10 +1,10 @@
            SPELL=kwalletmanager
-         VERSION=4.14.3
-     SOURCE_HASH=sha512:1f77dfaa66e386ed665c46361d5d99748c03f004b8282b62e02eb5fede15773d6a953b88ea94dfd529dc70a415a32384c26670876f6b6fa6e2ece2adb0594ecf
-          SOURCE="${SPELL}-${VERSION}.tar.xz"
-   SOURCE_URL[0]=$KDE_URL/stable/${VERSION}/src/${SOURCE}
-SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
-        WEB_SITE="http://kde.org/applications/system/kwalletmanager/"
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:074da4fa590f027560e62e171691bd378e7a35e2f3e82591f5092fab72cf038f82ac761c585399ca96a15d77a6527392eda48614f1d620e24ea0024adc28dfe7
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kwalletmanager
       LICENSE[0]="GPL"
          ENTERED=20120211
         KEYWORDS=""
