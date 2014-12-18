@@ -1,10 +1,10 @@
            SPELL=print-manager
-         VERSION=4.14.3
-     SOURCE_HASH=sha512:2cddb8b254125fc095fe0ea87f37a07c99edab8fd2dd115c4cc91a766e2e69b5c2e2061c7fa6eac64aa7d5bb3ba9c23db93ee78dcc898050496c553f41ff02f4
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:e56d2d4b693fa163dcc6d4e01e952a1d8b4d3d45f5c3b9f858dc8c8214d462329a51724ff0477bfe9666c6efaab815a62518da824c0ea78b21aa8fc1775d7753
           SOURCE=$SPELL-$VERSION.tar.xz
-   SOURCE_URL[0]=$KDE_URL/stable/$VERSION/src/$SOURCE
-SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
-        WEB_SITE=http://www.kde.org
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//print-manager/
       LICENSE[0]=GPL
          ENTERED=20120222
         KEYWORDS="kde4 printing"
