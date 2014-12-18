@@ -1,10 +1,10 @@
            SPELL=kwordquiz
-         VERSION=4.14.0
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:05cd6e9df462ed27d6a00b794e2390953cd821d452eaa237441d52958ee98152c23a25712d9b1023794e8c8741f4a33b75ea21e1179543aea0ad0cb40289084d
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:ef39a32499aa5585a757a908132db147af19c3515eca738d3e8f548aabd64f907ae903b8da12d5190b88eebd34a63d36c3bcb4f18e27aebf463f8e62ef759bf7
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//kwordquiz
          ENTERED=20110803
       LICENSE[0]=GPL
         KEYWORDS="kde4"
