@@ -1,10 +1,10 @@
            SPELL=libkexiv2
-         VERSION=4.14.3
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:5dd033be8d4ac7313ee74850e8ca653e7d32b91f0c9d63a409b13e01927a802f28ce1a893ecde0ac8210a35c44158b471a3b713e2f857678b3a6f25cf9f86947
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:3700bf4370e6746a482d03ee654d9c32d7de816cfacbdcbb5347036234dc30da93fb85e2d1d4fbcdc9cbe01f23eaab1533e39541068a9294d1690856de75a29b
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//libkexiv2
          ENTERED=20020912
 #  SECURITY_PATCH=1
       LICENSE[0]=GPL
