@@ -1,10 +1,10 @@
            SPELL=kgamma
-         VERSION=4.14.3
-     SOURCE_HASH=sha512:53633bb11bc45eefb74cc692b0c016ac7ff67214cf628c4b1e599d1b0934e2d4583804332b47b782afc8d4aa49eb28985c709dfb6f31d72e0befd993ebfa1b31
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:5c42828ca6c42e3a954f958ed97bd51271acf3fad4ae1af5367d0be5e4c13c5e9ddd39f55c388513a1311c60695bd0f8db7878ecf4a63edcbbb647c04273ff9c
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//kgamma
          ENTERED=20110219
 #  SECURITY_PATCH=1
       LICENSE[0]=GPL
