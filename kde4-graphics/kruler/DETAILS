@@ -1,10 +1,10 @@
            SPELL=kruler
-         VERSION=4.14.3
-     SOURCE_HASH=sha512:3dcd1de035a7ccefc6aec214ac27101403c8433fc7e29c59c9c3716acb55b1134044e130f7c77bb3b583f7f57a9ba50716ca531dcc654a85895ffe33e9788dc3
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:b358caa6a4743c921141e7ac5a11ebdd7a82e1083d9387d822dcf86b70ea6f2116cda443353ba4f820949020a098c3ec1cbb7913de9a5a8160c52b3590481737
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=http://www.kde.org
+        WEB_SITE=https://projects.kde.org/projects//kruler
          ENTERED=20110804
       LICENSE[0]=GPL
         KEYWORDS="kde4"
