@@ -1,10 +1,10 @@
            SPELL=bovo
-         VERSION=4.14.3
-     SOURCE_HASH=sha512:a3f9d95d74626a3bfe7735df75201252068e9993db8343833c0ffb0f53ae93df26ea71e92eecb2a82ceca320b421d2c05ab01485bee5b72e236c547fa5ecc772
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:3574b9b369de45bf1af792cee8fa1656329e148816a20a80d5a60aa60b190e7b42bc0fab0a76691b79235849f47bfcc1c894cb5c11956eec9f3a31b3b560b161
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/kde/kdegames/bovo
+        WEB_SITE=https://projects.kde.org/projects//bovo
          ENTERED=20120820
 #  SECURITY_PATCH=1
       LICENSE[0]=GPL
