@@ -1,3 +1,7 @@
+2014-12-31 Treeve Jelbert <treeve@sourceamge.org>
+	* DETAILS: version 4.8.2
+	* DEPENDS: now uses gstreamer-1.0, many exta depends
+
 2013-02-03 Ladislav Hagara <hgr@vabo.cz>
 	* DETAILS: 4.6.3
 
