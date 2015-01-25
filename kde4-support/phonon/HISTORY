@@ -1,3 +1,7 @@
+2015-01-25 Ismael Luceno <ismael@sourcemage.org>
+       * DEPENDS: Add proper flag to enable/disable pulseaudio
+
+
 2014-11-04 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 4.8.2
 
