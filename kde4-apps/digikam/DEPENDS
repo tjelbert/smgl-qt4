@@ -1,7 +1,8 @@
 source  "$SECTION_DIRECTORY/KDE_DEPENDS"  &&
 sub_depends qt4 SQLITE   &&
 depends  sqlite      &&
-depends  lcms        &&
+depends  eigen3      &&
+depends  lcms2       &&
 depends  libkdcraw   &&
 depends  libkexiv2   &&
 depends  libkipi     &&

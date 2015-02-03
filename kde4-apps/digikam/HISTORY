@@ -1,3 +1,8 @@
+2015-02-02 Treeve Jelbert <treevesourcemage.org>
+	* CONFLICTS: add digikam4
+	* DETAILS version 4.7.0-1
+	* DEPENDS: use lcms2, add eigen3
+
 2013-08-07 Ladislav Hagara <hgr@vabo.cz>
 	* DETAILS: 3.3.0
 
