@@ -47,7 +47,7 @@ optional_depends  linux-pam   '' ''   'enhanced security with PAM' &&
 optional_depends  consolekit  '' ''   'ConsoleKit integration in KDM' &&
 optional_depends  polkit-qt-1 '' ''   'PolicyKit integration in KDM' &&
 #optional_depends networkmanager  '' ''   ''
-optional_depends  UDEV        '' ''   'hardware monitoring'
+optional_depends  DEVICE-MANAGER        '' ''   'hardware monitoring'
 optional_depends  pciutils    '' ''   'PCI support'
 optional_depends  fontconfig  '' ''   'font configuration'
 optional_depends  BLUEZ       '' ''   'Bluetooth support'
