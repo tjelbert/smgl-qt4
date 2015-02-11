@@ -14,7 +14,7 @@ depends libxtst  &&
 depends libxext  &&
 depends phonon   &&
 depends dbus     &&
-depends UDEV     &&
+depends DEVICE-MANAGER     &&
 depends pkgconfig &&
 depends SSL  &&
 depends pcre     &&
