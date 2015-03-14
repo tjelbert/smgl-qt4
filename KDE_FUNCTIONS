@@ -12,7 +12,9 @@ function default_install() {
 update_databases() {
 local DD
 DD=$KDE4DIR
-  update-mime-database $DD/share/mime/
+  if is_depends_enabled $SPELL shared-mime-info;then
+    update-mime-database $DD/share/mime/
+  fir
   if [[ -e $DD/share/desktop-directories ]]; then
     update-desktop-database $DD/share/desktop-directories
   fi
