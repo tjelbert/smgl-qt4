@@ -1,3 +1,6 @@
+2015-03-27  Treeve Jelbert <treeve@sourcemage.org>
+	* qt5/qtjsbackend: spell deprecated [replaced by obsolete]
+
 2014-12-29  Treeve Jelbert <treeve@sourcemage.org>
 	* kde4-support/qca2: moved from main grimoire
 
