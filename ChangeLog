@@ -4,6 +4,7 @@
 	* move kruler
 	* move kdenlive4
 	* move kcalc, kcharselect. ktimer, print-manager
+	* move konversation4, quassel
 	  these now have qt5 versions
 
 2015-03-27  Treeve Jelbert <treeve@sourcemage.org>
