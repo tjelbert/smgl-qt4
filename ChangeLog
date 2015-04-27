@@ -1,5 +1,12 @@
+2015-04-27  Treeve Jelbert <treeve@sourcemage.org>
+	* move bovo, granatier, kshisn to also-in
+	  these are hnow have qt5 versions
+
 2015-03-27  Treeve Jelbert <treeve@sourcemage.org>
 	* qt5/qtjsbackend: spell deprecated [replaced by obsolete]
+
+2015-03-14 Treeve Jelbert <treeve@sourcemage.org>
+	* KDE5_FUNCTIONS: improve shared-mime-info usage
 
 2014-12-29  Treeve Jelbert <treeve@sourcemage.org>
 	* kde4-support/qca2: moved from main grimoire
