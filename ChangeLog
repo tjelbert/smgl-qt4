@@ -15,6 +15,8 @@
 	* move kturtle
 	  these now have qt5 versions
 	* create kde4-lts section
+	* move  baloo-widgets, baloo, kfilemetadata
+	  these will not be updated again
 
 2015-03-27  Treeve Jelbert <treeve@sourcemage.org>
 	* qt5/qtjsbackend: spell deprecated [replaced by obsolete]
