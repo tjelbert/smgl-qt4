@@ -3,6 +3,7 @@
 	* move blinken. rocs, kgeograpy, kiten
 	* move kruler
 	* move kdenlive4
+	* move kcalc, kcharselect. ktimer, print-manager
 	  these now have qt5 versions
 
 2015-03-27  Treeve Jelbert <treeve@sourcemage.org>
