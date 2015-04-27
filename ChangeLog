@@ -6,6 +6,7 @@
 	* move kcalc, kcharselect. ktimer, print-manager
 	* move konversation4, quassel
 	* move cantor
+	* move step
 	  these now have qt5 versions
 
 2015-03-27  Treeve Jelbert <treeve@sourcemage.org>
