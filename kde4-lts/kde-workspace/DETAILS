@@ -1,7 +1,7 @@
            SPELL=kde-workspace
-         VERSION=4.11.17
-              VX=14.12.3
-     SOURCE_HASH=sha512:21b84abfc71e29b6abaf6bdde2bb75ff0940e39fcc05bd92c767c30e5e629c1b4106cdee34b06a8cd4c99809f05596af3f355edb49e9c066043f3ceb54573892
+         VERSION=4.11.18
+              VX=15.04.0
+     SOURCE_HASH=sha512:80f9f3d96e43f9344c347b48ff7a8e348cf3f4fa9d1aa66c295e85eef4c7d67c8b4902b7ef10c05f1876c8aaae186b8710ea439f7ae0567eef6cd0ebe8b90045
           SOURCE=$SPELL-$VERSION.tar.xz
    SOURCE_URL[0]=$KDE_URL/stable/applications/$VX/src/$SOURCE
 SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
