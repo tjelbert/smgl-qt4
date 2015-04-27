@@ -10,6 +10,7 @@
 	* move kmplot
 	* move klettres
 	* move kwordquiz
+	* move kstars
 	  these now have qt5 versions
 
 2015-03-27  Treeve Jelbert <treeve@sourcemage.org>
