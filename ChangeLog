@@ -1,6 +1,7 @@
 2015-04-27  Treeve Jelbert <treeve@sourcemage.org>
 	* move bovo, granatier, kshisn to also-in
-	  these are hnow have qt5 versions
+	* move blinken. rocs, kgeograpy, kiten
+	  these now have qt5 versions
 
 2015-03-27  Treeve Jelbert <treeve@sourcemage.org>
 	* qt5/qtjsbackend: spell deprecated [replaced by obsolete]
