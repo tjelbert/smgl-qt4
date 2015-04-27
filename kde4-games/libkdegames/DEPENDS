@@ -1,4 +1,4 @@
-source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+source  $GRIMOIRE/KDE4_DEPENDS &&
 
 optional_depends openal-soft '' '' 'low-latency sound output' &&
 optional_depends libsndfile  '' '' 'low-latency sound output'

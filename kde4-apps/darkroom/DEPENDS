@@ -1,4 +1,4 @@
-source  "$SECTION_DIRECTORY/KDE_DEPENDS"  &&
+source  "$GRIMOIRE/KDE4_DEPENDS"  &&
 depends  libkexiv2     &&
 depends  libkdcraw     &&
 depends  JPEG          &&

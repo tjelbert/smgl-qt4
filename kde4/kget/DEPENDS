@@ -1,4 +1,4 @@
-source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
+source  $GRIMOIRE/KDE4_DEPENDS  &&
 optional_depends kde-baseapps '' '' 'Konqueror integration' &&
 optional_depends kdepimlibs   '' '' 'Signature checking' &&
 if is_depends_enabled $SPELL kdepimlibs;then

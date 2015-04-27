@@ -1,2 +1,2 @@
-. $GRIMOIRE/KDE_DEPENDS
+. $GRIMOIRE/KDE4_DEPENDS
 depends kdepimlibs

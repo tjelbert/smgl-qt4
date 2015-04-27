@@ -1,4 +1,4 @@
-. $GRIMOIRE/KDE_DEPENDS
+. $GRIMOIRE/KDE4_DEPENDS
 depends automoc &&
 optional_depends kactivities '' '' 'KActivies support' &&
 optional_depends qjson       '' '' 'parse JSON files'  &&

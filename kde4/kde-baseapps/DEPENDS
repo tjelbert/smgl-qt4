@@ -1,4 +1,4 @@
-source  $GRIMOIRE/KDE_DEPENDS 
+source  $GRIMOIRE/KDE4_DEPENDS 
 depends  libxau         &&
 depends  libxcomposite  &&
 depends  libxcursor     &&

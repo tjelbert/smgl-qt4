@@ -1,4 +1,4 @@
-source $GRIMOIRE/KDE_DEPENDS &&
+source $GRIMOIRE/KDE4_DEPENDS &&
 depends  gtk+2    &&
 depends  libx11   &&
 
