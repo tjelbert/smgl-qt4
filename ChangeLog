@@ -7,6 +7,7 @@
 	* move konversation4, quassel
 	* move cantor
 	* move step
+	* move kmplot
 	  these now have qt5 versions
 
 2015-03-27  Treeve Jelbert <treeve@sourcemage.org>
