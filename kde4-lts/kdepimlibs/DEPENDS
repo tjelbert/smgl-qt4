@@ -1,8 +1,6 @@
-depends cmake    &&
-depends qt4      &&
+source $GRIMOIRE/KDE4_DEPENDS &&
 depends akonadi  &&
 depends phonon   &&
-depends kdelibs  &&
 depends gpgme    &&
 depends libgpg-error &&
 depends boost    &&

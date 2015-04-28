@@ -1,7 +1,5 @@
-depends cmake    &&
+source $GRIMOIRE/KDE4_DEPENDS &&
 depends automoc  &&
-depends qt4      &&
-depends  kdelibs     &&
 depends  kde-runtime &&
 #depends  xorg-server &&
 #depends  kactivities   &&
