@@ -5,30 +5,11 @@ QT4DIR="$INSTALL_ROOT/opt/qt4"
 KDE4DIR="$QT4DIR"
 SRC=$SOURCE_DIRECTORY
 
-if is_depends_enabled $SPELL python;then
-  VV=`installed_version python | cut -c-3` &&
-  PYTHON2=/usr/bin/python${VV}
-  export PYTHON=$PYTHON2
-fi
-
-if is_depends_enabled $SPELL python3;then
-  VV=`installed_version python3 | cut -c-3` &&
-  PYTHON3=/usr/bin/python${VV}m
-  export PYTHON=$PYTHON3
-fi
-
 #---------------------------------------------------------------------
 function default_pre_build () {
   real_default_pre_build
   cd $SOURCE_DIRECTORY &&
   mkdir build
-}
-
-#---------------------------------------------------------------------
-function kde4_build() {
-  export XDG_DATA_DIRS=$KDE4DIR/share:/usr/share
-  OPTS+=" -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
-  qt4_cmake_build
 }
 
 

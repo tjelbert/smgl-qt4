@@ -1,3 +1,7 @@
+QT4DIR="$INSTALL_ROOT/opt/qt4"
+KDE4DIR="$QT4DIR"
+SRC=$SOURCE_DIRECTORY
+
 default_build() {
  kde4_build
 }
@@ -5,6 +9,14 @@ default_build() {
 function default_install() {
  cmake_install
 }
+
+#---------------------------------------------------------------------
+function kde4_build() {
+  export XDG_DATA_DIRS=$KDE4DIR/share:/usr/share
+  OPTS+=" -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
+  qt4_cmake_build
+}
+
 
 
 # we need a default_final, default_post_remove

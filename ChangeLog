@@ -1,3 +1,6 @@
+2015-04-28  Treeve Jelbert <treeve@sourcemage.org>
+	* KDE_FUNCTIONS, FUNCTIONS: cleanup
+
 2015-04-27  Treeve Jelbert <treeve@sourcemage.org>
 	* move bovo, granatier, kshisn to also-in
 	* move blinken. rocs, kgeograpy, kiten
