@@ -1,3 +1,6 @@
+2015-04-29  Treeve Jelbert <treeve@sourcemage.org>
+	* move bluedevil, partitionmanager, libbluedevil
+
 2015-04-28  Treeve Jelbert <treeve@sourcemage.org>
 	* KDE_FUNCTIONS, FUNCTIONS: cleanup
 
