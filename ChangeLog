@@ -1,6 +1,7 @@
 2015-04-29  Treeve Jelbert <treeve@sourcemage.org>
 	* move bluedevil, partitionmanager, libbluedevil
 	* delete kdebluetooth4
+	* delete kde*profiles
 
 2015-04-28  Treeve Jelbert <treeve@sourcemage.org>
 	* KDE_FUNCTIONS, FUNCTIONS: cleanup
