@@ -3,6 +3,7 @@
 	* delete kdebluetooth4
 	* delete kde*profiles
 	* move kdev*
+	* move kdesvn4, kdiff4
 
 2015-04-28  Treeve Jelbert <treeve@sourcemage.org>
 	* KDE_FUNCTIONS, FUNCTIONS: cleanup
