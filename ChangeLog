@@ -6,6 +6,7 @@
 	* move kdesvn4, kdiff4
 	* rename k3b4
 	* delete kdeaccessibility4
+	* rename kmymoney4
 
 2015-04-28  Treeve Jelbert <treeve@sourcemage.org>
 	* KDE_FUNCTIONS, FUNCTIONS: cleanup
